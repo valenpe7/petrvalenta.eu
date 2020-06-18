@@ -168,6 +168,27 @@ body {
   animation-delay: 0.25s;
   padding-top: $masthead-height;
 
+  &:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 8%;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: #fff;
+    @include breakpoint($small) {
+      left: 25%;
+    }
+    @include breakpoint($large) {
+      border-width: 30px;
+    }
+    @include breakpoint($x-large) {
+      left: 29%;
+    }
+  }
+
   &--overlay {
     position: relative;
     margin-bottom: 2em;
