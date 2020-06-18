@@ -13,8 +13,8 @@ $paragraph-indent: false !default; // true, false (default)
 $indent-var: 1.3em !default;
 
 /* system typefaces */
-$serif: Georgia, Times, serif !default;
-$sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+$serif: "PT Serif", Georgia, Times, serif !default;
+$sans-serif: "PT Sans Narrow", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
 $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
 
@@ -29,8 +29,8 @@ $bodoni: "Bodoni MT", serif !default;
 $calisto: "Calisto MT", serif !default;
 $garamond: Garamond, serif !default;
 
-$global-font-family: $sans-serif !default;
-$header-font-family: $sans-serif !default;
+$global-font-family: $serif; /* $sans-serif !default; */
+$header-font-family: $sans-serif-narrow; /* $sans-serif !default; */
 $caption-font-family: $serif !default;
 
 /* type scale */
@@ -111,9 +111,12 @@ $youtube-color: #bb0000 !default;
 $xing-color: #006567 !default;
 
 /* links */
-$link-color: mix(#000, $info-color, 20%) !default;
-$link-color-hover: mix(#000, $link-color, 25%) !default;
-$link-color-visited: mix(#fff, $link-color, 15%) !default;
+//$link-color: mix(#000, $info-color, 20%) !default;
+//$link-color-hover: mix(#000, $link-color, 25%) !default;
+//$link-color-visited: mix(#fff, $link-color, 15%) !default;
+$link-color: $dark-gray !default;
+$link-color-hover: $dark-gray !default;
+$link-color-visited: $dark-gray !default;
 $masthead-link-color: $primary-color !default;
 $masthead-link-color-hover: mix(#000, $primary-color, 25%) !default;
 $navicon-link-color-hover: mix(#fff, $primary-color, 75%) !default;
@@ -167,3 +170,4 @@ $navicon-width: 1.5rem !default;
 $navicon-height: 0.25rem !default;
 $global-transition: all 0.2s ease-in-out !default;
 $intro-transition: intro 0.3s both !default;
+$masthead-height: 75px;

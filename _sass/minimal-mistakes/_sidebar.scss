@@ -15,6 +15,7 @@
   //   -webkit-transform: translate3d(0, 0, 0);
   //   transform: translate3d(0, 0, 0);
   // }
+  //padding-top: $masthead-height;
 
   @include breakpoint($large) {
     float: left;
@@ -58,7 +59,7 @@
   li {
     font-family: $sans-serif;
     font-size: $type-size-6;
-    line-height: 1.5;
+    line-height: 1.0;
   }
 
   img {
@@ -127,11 +128,11 @@
   }
 
   img {
-    max-width: 150px;
+    max-width: 175px;
     border-radius: 50%;
 
     @include breakpoint($large) {
-      padding: 5px;
+      padding: 0px;
       border: 1px solid $border-color;
     }
   }
