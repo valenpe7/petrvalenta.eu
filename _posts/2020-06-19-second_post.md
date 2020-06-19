@@ -1,5 +1,5 @@
 ---
-title: First post
+title: Second post
 header:
   image: /assets/images/header.png
   teaser: /assets/images/avatar.jpg

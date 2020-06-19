@@ -109,7 +109,9 @@ body {
   p,
   li,
   dl {
-    font-size: 1em;
+    font-size: 0.8em;
+    text-align: justify;
+    text-justify: inter-word;
   }
 
   /* paragraph indents */
@@ -185,7 +187,7 @@ body {
       border-width: 30px;
     }
     @include breakpoint($x-large) {
-      left: 33.333333%;
+      left: 30%;
     }
   }
 
@@ -220,7 +222,7 @@ body {
     .page__lead,
     .btn {
       color: #fff;
-      text-shadow: 1px 1px 4px rgba(#000, 0.5);
+      text-shadow: 2px 2px 4px rgba(#000, 0.6);
     }
 
     .page__lead {
@@ -251,11 +253,11 @@ body {
   padding: 2px 5px;
   color: #fff;
   font-family: $caption-font-family;
-  font-size: $type-size-7;
+  font-size: $type-size-8;
   background: #000;
   text-align: right;
   z-index: 5;
-  opacity: 0.5;
+  opacity: 0.4;
   border-radius: $border-radius 0 0 0;
 
   @include breakpoint($large) {
@@ -273,9 +275,9 @@ body {
    ========================================================================== */
 
 .page__share {
-  margin-top: 2em;
-  padding-top: 1em;
-  border-top: 1px solid $border-color;
+  margin-top: 0em;
+  padding-top: 0em;
+  //border-top: 1px solid $border-color;
 
   @include breakpoint(max-width $small) {
     .btn span {
