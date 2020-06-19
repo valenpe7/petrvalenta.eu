@@ -15,7 +15,6 @@
   //   -webkit-transform: translate3d(0, 0, 0);
   //   transform: translate3d(0, 0, 0);
   // }
-  //padding-top: $masthead-height;
 
   @include breakpoint($large) {
     float: left;
@@ -314,8 +313,17 @@
     text-decoration: none;
 
     &:hover {
-      text-decoration: underline;
+      -webkit-transform: translate(5px, 0);
+      -ms-transform: translate(5px, 0);
+      transform: translate(5px, 0);
     }
+
+    &:active {
+      -webkit-transform: scale(0.95);
+      -ms-transform: scale(0.95);
+      transform: scale(0.95);
+    }
+
   }
 }
 
