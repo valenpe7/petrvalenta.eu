@@ -1,7 +1,10 @@
 ---
 title: First post
 header:
-  image: /assets/images/header.png
+  image: /assets/images/header.jpg
+  caption: 2D simulation of laser-plasma interaction
+  image_description: 2D simulation of laser-plasma interaction
+
   teaser: /assets/images/avatar.jpg
 ---
 
