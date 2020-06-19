@@ -1,12 +1,12 @@
 # main links
 main:
-  - title: "POSTS"
+  - title: "Posts"
     url: /posts/
-  - title: "TEACHING"
+  - title: "Teaching"
     url: /teaching.html
-  - title: "PUBLICATIONS"
+  - title: "Publications"
     url: /publications.html
-  - title: "CURRICULUM"
+  - title: "Curriculum"
     url: /curriculum.html
   #  - title: "About"
   #  url: /about.html
