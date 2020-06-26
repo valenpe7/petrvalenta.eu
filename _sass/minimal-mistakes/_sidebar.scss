@@ -80,7 +80,7 @@
     right: 0;
     width: $right-sidebar-width-narrow;
     margin-right: -1 * $right-sidebar-width-narrow;
-    padding-left: 1em;
+    padding-left: 4em;
     z-index: 10;
 
     &.sticky {
@@ -313,16 +313,17 @@
     text-decoration: none;
 
     &:hover {
-      -webkit-transform: translate(5px, 0);
-      -ms-transform: translate(5px, 0);
-      transform: translate(5px, 0);
+      text-decoration: underline;
+      //-webkit-transform: translate(5px, 0);
+      //-ms-transform: translate(5px, 0);
+      //transform: translate(5px, 0);
     }
 
-    &:active {
-      -webkit-transform: scale(0.95);
-      -ms-transform: scale(0.95);
-      transform: scale(0.95);
-    }
+    //&:active {
+    //  -webkit-transform: scale(0.95);
+    //  -ms-transform: scale(0.95);
+    //  transform: scale(0.95);
+    //}
 
   }
 }

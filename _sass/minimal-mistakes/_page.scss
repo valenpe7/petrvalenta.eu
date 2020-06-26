@@ -129,6 +129,7 @@ body {
 
   a:not(.btn) {
     color: #0000ff;
+    //color: #fff;
 
     &:hover {
       text-decoration: underline;
@@ -189,7 +190,7 @@ body {
       border-width: 30px;
     }
     @include breakpoint($x-large) {
-      left: 30%;
+      left: 33.33333%;
     }
   }
 
