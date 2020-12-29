@@ -9,7 +9,7 @@
 
 // custom
 html {
-    font-size: 15px; // originally 16px
+    font-size: 16px; // originally 16px
     @include breakpoint($medium) {
         font-size: 16px; // originally 18px
     }
@@ -17,6 +17,6 @@ html {
         font-size: 18px; // originally 20px
     }
     @include breakpoint($x-large) {
-        font-size: 19.5px; // originally 22px
+        font-size: 20px; // originally 22px
     }
 }
