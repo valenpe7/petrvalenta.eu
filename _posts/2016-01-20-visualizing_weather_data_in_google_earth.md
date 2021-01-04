@@ -123,7 +123,7 @@ void weather_data::load_data(std::string filename) {
 {% endhighlight %}
 This method reads and imports the data from a given file and keeps the name of the file, number of rows and boundaries. 
 
-**Creating uniform grid**
+#### Creating uniform grid
 
 Since the input data are loaded, we need to create a two dimensional uniform grid to be able to perform interpolation. Similarly as before, we need a data structure for uniform data:
 {% highlight cpp linenos %}
@@ -239,11 +239,11 @@ void weather_data::create_grid(std::array<unsigned int, 2> size) {
 {% endhighlight %}
 This method takes the size of the grid in both directions as an argument. The grid size significantly affects the quality and the computational time of the interpolation as well as the resolution of the computed colormap and the smoothness of the isocontours. The location of the grid is done automatically in accordance with the boundaries of the scattered data. This method also initializes the fields of cells and nodes.
 
-**Performing interpolation**
+#### Performing interpolation
 
 The crucial step is the interpolation of scattered data in order to evaluate measured parameters at the grid points. In accordance with the project specifications, two following methods have been used:
 
-*1) Shepard's method:*
+- *Shepard's method*
 
 The principle of finding an interpolated value of scattered data $ f_{i} = f\left( \vec{x}_{i} \right) $ for $ i \in \left\lbrace 1, \ldots, N \right\rbrace $ at a given point $ \vec{x} $ using Shepard's method, is based on constructing an interpolating function $ F\left( \vec{x} \right) $ as follows
 
@@ -284,7 +284,7 @@ weather_data& weather_data::shepard_interpolation(double p) {
 }
 {% endhighlight %}
 
-*2) Hardy multiquadrics:*
+- *Hardy multiquadrics*
 
 The second method, which has been implemented, is called Hardy multiquadrics. Now, we are looking for the interpolating function in the following form [2],
 $$ \small{F\left( \vec{x} \right) = \sum_{i = 1}^{N} \alpha_{i} h_{i} \left( \vec{x} \right)}, $$
@@ -327,7 +327,7 @@ weather_data& weather_data::hardy_interpolation(double R) {
 {% endhighlight %}
 The system of linear equations is solved using LU decomposition from the `Eigen` C++ library. Then the function $ h_{i} \left( \vec{x} \right) $ is computed at each grid point and the measured parameter is evaluated there.
 
-**Calculating colormaps**
+#### Calculating colormaps
 
 Since we have interpolated values of measured parameter at each grid point, one is able to compute a colormap. The idea is to calculate an average value of the four nodes assigned to each cell. Then the maximum and minimum of all average values are determined and the interval formed by these two numbers is divided into several parts corresponding to the number of colors in the used color table. Afterwards, each cell will get the RGB value from the color table according to its average value. The implementation has been done as follows:
 {% highlight cpp linenos %}
@@ -363,15 +363,15 @@ weather_data& weather_data::compute_colormap(std::vector<std::array<int, 4>> col
 }
 {% endhighlight %} 
 
-**Calculating isocontours**
+#### Calculating isocontours
 
 Similarly as before, the method for computing isocontours takes a number of isocontours as an argument. Then the maximum and minimum of values assigned grid points are calculated, and the interval, which these two numbers form, is divided by the number of isocontours we want to calculate. The isocontours are computed in accordance with these thresholds using so called [marching squares](https://en.wikipedia.org/wiki/Marching_squares) algorithm. The implementation is quite lengthy, therefore it is not shown here. Nevertheless, one can find it in the source code.
 
-**Exporting data**
+#### Exporting data
 
-In order to visualize the data we have computed earlier in Google Earth, it is necessary to export them in the KML file format. Regarding the colormap, first we need to export the generated image in PNG format. For this reason, the `[LodePNG](http://lodev.org/lodepng/)` C++ libriary has been used. Then we need to generate a KML file with the specified path to the colormap image and the coordinates, where this image should appear. These coordinates are determined by boundaries that we computed before. For the isocontours, we need to export separate line segments determined by its starting and ending points. These lines we have computed before as `segments`. Altogether, they create a whole isoline.
+In order to visualize the data we have computed earlier in Google Earth, it is necessary to export them in the KML file format. Regarding the colormap, first we need to export the generated image in PNG format. For this reason, the [`LodePNG`](http://lodev.org/lodepng/) C++ libriary has been used. Then we need to generate a KML file with the specified path to the colormap image and the coordinates, where this image should appear. These coordinates are determined by boundaries that we computed before. For the isocontours, we need to export separate line segments determined by its starting and ending points. These lines we have computed before as `segments`. Altogether, they create a whole isoline.
 
-There exists a KML library written in C++ called `[libkml](https://code.google.com/archive/p/libkml/)`, but it is deprecated. Therefore, I decided to write my own methods for exporting the data into a KML file. The implementation is not difficult, but a little bit long. One can find it in the source code. 
+There exists a KML library written in C++ called [`libkml`](https://code.google.com/archive/p/libkml/), but it is deprecated. Therefore, I decided to write my own methods for exporting the data into a KML file. The implementation is not difficult, but a little bit long. One can find it in the source code. 
 
 ### References
 

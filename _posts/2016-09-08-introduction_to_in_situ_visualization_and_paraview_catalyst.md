@@ -2,6 +2,8 @@
 title: Introduction to in situ visualization and ParaView Catalyst
 excerpt: "Traditionally, the process of performing numerical simulations consists of three separate steps: First, the input parameters (such as initial or boundary conditions) are specified, then the simulation is executed and finally, in order to determine the result, it is necessary to explore and analyse generated data. For several decades, increasing power of computer clusters and advancement in parallel computing methods allow scientists to perform more and more accurate simulations in various fields of human research."
 #(tags: science visualization Paraview Catalyst)
+#(toc: true)
+#(toc_sticky: true)
 header:
   image: /assets/images/header.jpg
   caption: 2D simulation of laser-plasma interaction
@@ -11,6 +13,8 @@ header:
 
 **Note:** This article was written for [PRACE Summer of HPC](https://summerofhpc.prace-ri.eu/) blog as a part of my internship. You can find the original posts [here](https://summerofhpc.prace-ri.eu/in-situ-visualization-technique/) and [here](https://summerofhpc.prace-ri.eu/introduction-to-paraview-catalyst/).
 {: .notice--info}
+
+### Introduction
 
 Traditionally, the process of performing numerical simulations consists of three separate steps: First, the input parameters (such as initial or boundary conditions) are specified, then the simulation is executed and finally, in order to determine the result, it is necessary to explore and analyse generated data. For several decades, increasing power of computer clusters and advancement in parallel computing methods allow scientists to perform more and more accurate simulations in various fields of human research.
 
