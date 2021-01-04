@@ -9,8 +9,8 @@ figure.highlight {
   background: $base00;
   color: $base05;
   font-family: $monospace;
-  font-size: $type-size-6;
-  line-height: 1.8;
+  font-size: $type-size-7;
+  line-height: 1.5;
   border-radius: $border-radius;
 
   > pre,
@@ -33,11 +33,19 @@ figure.highlight {
     /* line numbers*/
     &.gutter,
     &.rouge-gutter {
-      padding-right: 1em;
-      width: 1em;
+      padding-right: 0;
+      width: 0.7em;
       color: $base04;
-      border-right: 1px solid $base04;
+      //border-right: 1px solid $base04;
       text-align: right;
+      
+      /* Stop line numbers being visually selected */
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
     }
 
     /* code */
@@ -71,6 +79,7 @@ figure.highlight {
   .k {
     /* Keyword */
     color: $base0e;
+    font-weight: bold;
   }
   .l {
     /* Literal */
@@ -83,6 +92,7 @@ figure.highlight {
   .o {
     /* Operator */
     color: $base0c;
+    font-weight: bold;
   }
   .p {
     /* Punctuation */
@@ -95,6 +105,7 @@ figure.highlight {
   .cp {
     /* Comment.Preproc */
     color: $base04;
+    font-weight: bold;
   }
   .c1 {
     /* Comment.Single */
@@ -138,26 +149,32 @@ figure.highlight {
   .kc {
     /* Keyword.Constant */
     color: $base0e;
+    font-weight: bold;
   }
   .kd {
     /* Keyword.Declaration */
     color: $base0e;
+    font-weight: bold;
   }
   .kn {
     /* Keyword.Namespace */
     color: $base0c;
+    font-weight: bold;
   }
   .kp {
     /* Keyword.Pseudo */
     color: $base0e;
+    font-weight: bold;
   }
   .kr {
     /* Keyword.Reserved */
     color: $base0e;
+    font-weight: bold;
   }
   .kt {
     /* Keyword.Type */
     color: $base0a;
+    font-weight: bold;
   }
   .ld {
     /* Literal.Date */
@@ -182,6 +199,7 @@ figure.highlight {
   .nc {
     /* Name.Class */
     color: $base0a;
+    font-weight: bold;
   }
   .no {
     /* Name.Constant */
@@ -198,10 +216,12 @@ figure.highlight {
   .ne {
     /* Name.Exception */
     color: $base08;
+    font-weight: bold;
   }
   .nf {
     /* Name.Function */
     color: $base0d;
+    font-weight: bold;
   }
   .nl {
     /* Name.Label */
@@ -230,6 +250,7 @@ figure.highlight {
   .ow {
     /* Operator.Word */
     color: $base0c;
+    font-weight: bold;
   }
   .w {
     /* Text.Whitespace */

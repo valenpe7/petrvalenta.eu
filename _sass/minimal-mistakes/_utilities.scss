@@ -324,6 +324,21 @@ body:hover .visually-hidden button {
   .fa-xing-square {
     color: $xing-color;
   }
+
+  .ai-orcid,
+  .ai-orcid-square {
+    color: #a7cf36;
+  }
+
+  .ai-google-scholar,
+  .ai-google-scholar-square {
+    color: #4383f2;
+  }
+
+  .fa-map-marker,
+  .fa-map-marker-alt {
+    color: #de3f30;
+  }
 }
 
 /*
@@ -435,7 +450,7 @@ body:hover .visually-hidden button {
     @include clearfix();
     position: -webkit-sticky;
     position: sticky;
-    top: 2em;
+    top: 4em;
 
     > * {
       display: block;
