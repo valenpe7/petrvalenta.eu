@@ -327,17 +327,17 @@ body:hover .visually-hidden button {
 
   .ai-orcid,
   .ai-orcid-square {
-    color: #a7cf36;
+    color: $orcid-color;
   }
 
   .ai-google-scholar,
   .ai-google-scholar-square {
-    color: #4383f2;
+    color: $google-scholar-color;
   }
 
   .fa-map-marker,
   .fa-map-marker-alt {
-    color: #de3f30;
+    color: $map-marker-color;
   }
 }
 

@@ -1,4 +1,5 @@
 ---
+
 title: Visualizing weather data in Google Earth
 excerpt: "This article describes a code which has been used to compute colormaps and isocontours from provided weather data and to export them in order to visualize a results in Google Earth. One can find explanation of individual steps of the implementation and used data structures."
 #(tags: science, visualization, Google Earth)
@@ -9,12 +10,11 @@ header:
   caption: 2D simulation of laser-plasma interaction
   image_description: 2D simulation of laser-plasma interaction
   teaser: /assets/images/img_03.jpg
+
 ---
 
 **Note:** This article describes the assessment work for the course *Scientific Visualization* lectured at [Grenoble Institute of Technology](https://www.grenoble-inp.fr/en) (winter semester 2015/2016).
 {: .notice--info}
-
-### Introduction
 
 The goal of this project was to visualize data from [Meteo France](http://www.meteofrance.fr/) in [Google Earth](https://www.google.com/earth/), using several methods presented in the course. Meteo France provides publicly available data recording wind velocities, temperatures and pressures at several cities. The work consists of the following four main steps:
 

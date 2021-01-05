@@ -14,8 +14,6 @@ header:
 **Note:** This article was written for [PRACE Summer of HPC](https://summerofhpc.prace-ri.eu/) blog as a part of my internship. You can find the original posts [here](https://summerofhpc.prace-ri.eu/in-situ-visualization-technique/) and [here](https://summerofhpc.prace-ri.eu/introduction-to-paraview-catalyst/).
 {: .notice--info}
 
-### Introduction
-
 Traditionally, the process of performing numerical simulations consists of three separate steps: First, the input parameters (such as initial or boundary conditions) are specified, then the simulation is executed and finally, in order to determine the result, it is necessary to explore and analyse generated data. For several decades, increasing power of computer clusters and advancement in parallel computing methods allow scientists to perform more and more accurate simulations in various fields of human research.
 
 On the other hand, increasing demands of the simulations need more data to be stored on a disk and analysed. However, the capabilities of computing environment which is responsible for transferring the data and communication have not grown up as rapid as the computational power. Dumping and processing of all the data calculated during the simulation would take too much time, so in practice this usually means that they are stored only at several time-steps or at much coarser resolution than the original data. The rest is just discarded and the significant part of information may be potentially lost.

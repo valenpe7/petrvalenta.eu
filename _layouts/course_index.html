@@ -1,0 +1,18 @@
+---
+layout: archive
+---
+
+<h3 id="page_top" class="archive__subtitle">{{ site.data.ui-text[site.locale].all_courses | default: "All courses" }}</h3>
+
+{{ content }}
+
+{% assign courses = site.courses | sort: 'title' %}
+{% for course in courses %}
+  <h2 class="archive__item-title"><a href="{{ course.url }}">{{ course.title }}</a></h2>
+  {% if course.excerpt %}
+    <p class="archive__item-excerpt" itemprop="description">{{ course.excerpt | markdownify | strip_html | truncate: 250 }}</p>
+  {% endif %}
+{% endfor %}
+
+<section class="taxonomy__section"></section>
+<a href="#page_top" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
