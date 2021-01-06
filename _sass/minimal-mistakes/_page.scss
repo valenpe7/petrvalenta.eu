@@ -106,6 +106,24 @@ body {
 		}
 	}
 
+  details {
+    left: 1.5em;
+    font-size: 0.8em;
+    margin: 0.25em;
+
+    p {
+      padding-left: 1.5em;
+      font-size: 1.0em;
+      margin-top: 0.25em;
+      margin-bottom: 0;
+    }
+  }
+
+
+  section {
+    margin-bottom: 1em;
+  }
+
   p,
   li,
   dl {

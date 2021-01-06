@@ -74,17 +74,127 @@ Alternatively, if you do not have installed Anaconda, you may launch the noteboo
 
 ### Tutorials:
 
-- **Tutorial 01** - Introduction ([nbviever](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/01-introduction.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F01-introduction.ipynb))
-- **Tutorial 02** - Error analysis ([nbviever](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/02-error_analysis.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F02-error_analysis.ipynb))
-- **Tutorial 03** - Linear algebra ([nbviever](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/03-linear_algebra.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F03-linear_algebra.ipynb))
-- **Tutorial 04** - Linear algebra - cont'd ([nbviever](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/04-linear_algebra_contd.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F04-linear_algebra_contd.ipynb))
-- **Tutorial 05** - Interpolation ([nbviever](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/05-interpolation.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F05-interpolation.ipynb))
-- **Tutorial 06** - Data sorting ([nbviever](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/06-data_sorting.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F06-data_sorting.ipynb))
-- **Tutorial 07** - Nonlinear equations ([nbviever](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/07-nonlinear_equations.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F07-nonlinear_equations.ipynb))
-- **Tutorial 08** - Numerical optimization ([nbviever](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/08-optimization.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F08-optimization.ipynb))
-- **Tutorial 09** - Quadrature ([nbviever](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/09-quadrature.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F09-quadrature.ipynb))
-- **Tutorial 10** - Initial value problems ([nbviever](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/10-initial_value_problems.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F10-initial_value_problems.ipynb))
-- **Tutorial 11** - Boundary value problems ([nbviever](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/11-boundary_value_problems.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F11-boundary_value_problems.ipynb))
+<section class="page__content" itemprop="text">
+
+<details class="page__content" itemprop="text">
+  <summary>
+    <b>Tutorial 00</b> - Introduction to numerical methods
+  </summary>
+  <p>
+    Tutorial description ... 
+  </p>
+</details>
+
+<details class="page__content" itemprop="text">
+  <summary>
+    <b>Tutorial 01</b> - Introduction to Python and Jupyter (<a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/01-introduction.ipynb">nbviever</a>, <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F01-introduction.ipynb">binder</a>)
+  </summary>
+  <p>
+    Tutorial description ... 
+  </p>
+</details>
+
+<details class="page__content" itemprop="text">
+  <summary>
+    <b>Tutorial 02</b> - Error analysis (<a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/02-error_analysis.ipynb">nbviever</a>, <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F02-error_analysis.ipynb">binder</a>)
+  </summary>
+  <p>
+    Tutorial description
+  </p>
+</details>
+
+<details class="page__content" itemprop="text">
+  <summary>
+    <b>Tutorial 03</b> - Linear algebra (<a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/03-linear_algebra.ipynb">nbviever</a>, <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F03-linear_algebra.ipynb">binder</a>)
+  </summary>
+  <p>
+    Tutorial description
+  </p>
+</details>
+
+<details class="page__content" itemprop="text">
+  <summary>
+    <b>Tutorial 04</b> - Linear algebra - cont'd (<a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/04-linear_algebra_contd.ipynb">nbviever</a>, <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F04-linear_algebra_contd.ipynb">binder</a>)
+  </summary>
+  <p>
+    Tutorial description
+  </p>
+</details>
+
+<details class="page__content" itemprop="text">
+  <summary>
+    <b>Tutorial 05</b> - Interpolation (<a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/05-interpolation.ipynb">nbviever</a>, <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F05-interpolation.ipynb">binder</a>)
+  </summary>
+  <p>
+    Tutorial description
+  </p>
+</details>
+
+<details class="page__content" itemprop="text">
+  <summary>
+    <b>Tutorial 06</b> - Data sorting (<a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/06-data_sorting.ipynb">nbviever</a>, <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F06-data_sorting.ipynb">binder</a>)
+  </summary>
+  <p>
+    Tutorial description
+  </p>
+</details>
+
+<details class="page__content" itemprop="text">
+  <summary>
+    <b>Tutorial 07</b> - Nonlinear equations (<a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/07-nonlinear_equations.ipynb">nbviever</a>, <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F07-nonlinear_equations.ipynb">binder</a>)
+  </summary>
+  <p>
+    Tutorial description
+  </p>
+</details>
+
+<details class="page__content" itemprop="text">
+  <summary>
+    <b>Tutorial 08</b> - Numerical optimization (<a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/08-optimization.ipynb">nbviever</a>, <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F08-optimization.ipynb">binder</a>)
+  </summary>
+  <p>
+    Tutorial description
+  </p>
+</details>
+
+<details class="page__content" itemprop="text">
+  <summary>
+    <b>Tutorial 09</b> - Quadrature (<a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/09-quadrature.ipynb">nbviever</a>, <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F09-quadrature.ipynb">binder</a>)
+  </summary>
+  <p>
+    Tutorial description
+  </p>
+</details>
+
+<details class="page__content" itemprop="text">
+  <summary>
+    <b>Tutorial 10</b> - Initial value problems (<a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/10-initial_value_problems.ipynb">nbviever</a>, <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F10-initial_value_problems.ipynb">binder</a>)
+  </summary>
+  <p>
+    Tutorial description
+  </p>
+</details>
+
+<details class="page__content" itemprop="text">
+  <summary>
+    <b>Tutorial 11</b> - Boundary value problems (<a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/11-boundary_value_problems.ipynb">nbviever</a>, <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F11-boundary_value_problems.ipynb">binder</a>)
+  </summary>
+  <p>
+    Tutorial description
+  </p>
+</details>
+
+<details class="page__content" itemprop="text">
+  <summary>
+    <b>Tutorial 12</b> - Individual consultations, evaluation of assessment tasks
+  </summary>
+  <p>
+    Tutorial description
+  </p>
+</details>
+
+</section>
+
 
 The study materials are evolving quickly. Therefore, if you find any mistake, please submit an [issue](https://github.com/valenpe7/numerical_methods/issues) to the GitHub project repository.
 
