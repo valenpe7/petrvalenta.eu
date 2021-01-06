@@ -19,7 +19,7 @@ Here you can find auxiliary study materials for undergraduate course <b>12NME - 
 
 in order to obtain the assessment, there are several formal requirements: 
 
-**attendace on tutorials**  
+**attendace at tutorials**  
 - maximum of 3 unjustified absences are allowed throughout the semester  
 - please consult the [attendance](https://docs.google.com/spreadsheets/d/1HYbvij7V8GOHL2nAOiQV4H2cIj47VBQIGBNvZAQG7YQ/edit?usp=sharing) list regularly and inform me in case of any error
 
@@ -27,6 +27,10 @@ in order to obtain the assessment, there are several formal requirements:
 - you have to solve correctly given task and defend your solution  
 - the assessment tasks will be assigned in April, the deadline for submission will be in September (the exact dates will be specified later)  
 - first, send me your task solution via e-mail; if your solution is correct, the date of defense will be determined individually upon mutual agreement
+
+Those who obtained the assessment previous year do not have to attend the tutorials again.
+
+Those who attended the tutorials previous year and did not defend the assessment task may get another task to be submitted until the end of March. If the defense of the new assessment task is successfull, they do not have to attend the tutorials again.
 
 ### About the study materials:
 
@@ -68,14 +72,6 @@ Alternatively, if you do not have installed Anaconda, you may launch the noteboo
 * [NBViewer](https://nbviewer.jupyter.org) (non-interactive)
 * [Binder](https://mybinder.org) (interactive)
 
-### Useful links (in Czech):
-
-- [Guidelines to lectures and seminars](http://kfe.fjfi.cvut.cz/~limpouch/numet/NMECvic.pdf)
-- [Outline of lecture](http://kfe.fjfi.cvut.cz/~limpouch/numet/sylnum.html)
-- [Transparencies of lectures](http://kfe.fjfi.cvut.cz/~limpouch/numet/lecnum.html)
-- [References to numerical methods](http://kfe.fjfi.cvut.cz/~limpouch/numet/refnum.html)
-- [Further study materials](http://kfe.fjfi.cvut.cz/~vachal/edu/nme/)
-
 ### Tutorials:
 
 - **Tutorial 01** - Introduction ([nbviever](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/01-introduction.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F01-introduction.ipynb))
@@ -91,4 +87,12 @@ Alternatively, if you do not have installed Anaconda, you may launch the noteboo
 - **Tutorial 11** - Boundary value problems ([nbviever](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/11-boundary_value_problems.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F11-boundary_value_problems.ipynb))
 
 The study materials are evolving quickly. Therefore, if you find any mistake, please submit an [issue](https://github.com/valenpe7/numerical_methods/issues) to the GitHub project repository.
+
+### Useful links (in Czech):
+
+- [Guidelines to lectures and seminars](http://kfe.fjfi.cvut.cz/~limpouch/numet/NMECvic.pdf)
+- [Outline of lecture](http://kfe.fjfi.cvut.cz/~limpouch/numet/sylnum.html)
+- [Transparencies of lectures](http://kfe.fjfi.cvut.cz/~limpouch/numet/lecnum.html)
+- [References to numerical methods](http://kfe.fjfi.cvut.cz/~limpouch/numet/refnum.html)
+- [Further study materials](http://kfe.fjfi.cvut.cz/~vachal/edu/nme/)
 
