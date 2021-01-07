@@ -19,11 +19,11 @@ Here you can find auxiliary study materials for undergraduate course <b>12NME - 
 
 in order to obtain the assessment, there are several formal requirements: 
 
-**attendace at tutorials**  
+#### Attendace at tutorials:
 - maximum of 3 unjustified absences are allowed throughout the semester  
 - please consult the [attendance](https://docs.google.com/spreadsheets/d/1HYbvij7V8GOHL2nAOiQV4H2cIj47VBQIGBNvZAQG7YQ/edit?usp=sharing) list regularly and inform me in case of any error
 
-**assessment task**  
+#### Assessment task:
 - you have to solve correctly given task and defend your solution  
 - the assessment tasks will be assigned in April, the deadline for submission will be in September (the exact dates will be specified later)  
 - first, send me your task solution via e-mail; if your solution is correct, the date of defense will be determined individually upon mutual agreement
@@ -41,7 +41,7 @@ The study materials currently consist of only the implementation of selected num
 
 Although all these packages can be installed one-by-one, I recommend to obtain them by installing [Anaconda](https://www.anaconda.com/).
 
-### What is Anaconda and how to install it:
+#### What is Anaconda and how to install it:
 
 Anaconda is a Python distribution for scientific computing. It includes Jupyter and dozens of the most popular Python packages for scientific computing, including numpy, scipy and matplotlib. 
 
@@ -50,7 +50,7 @@ To install Anaconda,
 2. download the suitable Anaconda installer for Windows/MacOS/Linux (you will find them at the bottom of the web page)
 3. install Anaconda using all of the defaults for installation except make sure to check that the Anaconda distribution is the default Python
 
-### How to obtain the notebooks:
+#### How to obtain the notebooks:
 
 All the notebooks are stored in [this](https://github.com/valenpe7/numerical_methods) GitHub repository under the `lectures` directory. You may either download all the notebooks as a [.zip](https://github.com/valenpe7/numerical_methods/archive/master.zip) archive, or use `git`:
 
@@ -59,7 +59,7 @@ All the notebooks are stored in [this](https://github.com/valenpe7/numerical_met
 2. Pull in new changes:  
 ``` $> git pull ```
 
-### How to launch the notebooks:
+#### How to launch the notebooks:
 
 After you have installed Anaconda on your computer and obtained the notebooks, you are ready to run the notebook server. You can start the notebook server from the command line (Terminal on MacOS/Linux, Anaconda Prompt on Windows) by running:
 ```
@@ -81,106 +81,106 @@ Alternatively, if you do not have installed Anaconda, you may launch the noteboo
     <b>Tutorial 00</b> - Introduction to numerical methods
   </summary>
   <p>
-    Tutorial description ... 
+    Organization of tutorials, installation and setup of required tools 
   </p>
 </details>
 
 <details class="page__content" itemprop="text">
   <summary>
-    <b>Tutorial 01</b> - Introduction to Python and Jupyter (<a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/01-introduction.ipynb">nbviever</a>, <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F01-introduction.ipynb">binder</a>)
+    <b>Tutorial 01</b> - Introduction to Python and Jupyter
   </summary>
   <p>
-    Tutorial description ... 
+    Basic concepts and features of Python, numeric and math-related functions and data types, Jupyter environment, numpy, scipy, matplotlib (<a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/01-introduction.ipynb">nbviever</a>, <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F01-introduction.ipynb">binder</a>, <a href="https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/01-introduction.ipynb">ipynb</a>)
   </p>
 </details>
 
 <details class="page__content" itemprop="text">
   <summary>
-    <b>Tutorial 02</b> - Error analysis (<a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/02-error_analysis.ipynb">nbviever</a>, <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F02-error_analysis.ipynb">binder</a>)
+    <b>Tutorial 02</b> - Error analysis
   </summary>
   <p>
-    Tutorial description
+    Floating point representation of numbers, roundoff error, truncation error, numerical stability and condition number (<a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/02-error_analysis.ipynb">nbviever</a>, <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F02-error_analysis.ipynb">binder</a>, <a href="https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/02-error_analysis.ipynb">ipynb</a>)
   </p>
 </details>
 
 <details class="page__content" itemprop="text">
   <summary>
-    <b>Tutorial 03</b> - Linear algebra (<a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/03-linear_algebra.ipynb">nbviever</a>, <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F03-linear_algebra.ipynb">binder</a>)
+    <b>Tutorial 03</b> - Linear algebra
   </summary>
   <p>
-    Tutorial description
+    Basic linear algebra operations, direct methods for solving linear equation systems, forward and backward substitution, Gaussian elimination, LU decomposition, Thomas algorithm (<a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/03-linear_algebra.ipynb">nbviever</a>, <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F03-linear_algebra.ipynb">binder</a>, <a href="https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/03-linear_algebra.ipynb">ipynb</a>)
   </p>
 </details>
 
 <details class="page__content" itemprop="text">
   <summary>
-    <b>Tutorial 04</b> - Linear algebra - cont'd (<a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/04-linear_algebra_contd.ipynb">nbviever</a>, <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F04-linear_algebra_contd.ipynb">binder</a>)
+    <b>Tutorial 04</b> - Linear algebra - cont'd
   </summary>
   <p>
-    Tutorial description
+    Iterative methods for solving linear equation systems, Jacobi method, Gauss-Seidel method, successive overrelaxation method, power iteration and eigensystems, conjugate gradient method (<a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/04-linear_algebra_contd.ipynb">nbviever</a>, <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F04-linear_algebra_contd.ipynb">binder</a>, <a href="https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/04-linear_algebra_contd.ipynb">ipynb</a>)
   </p>
 </details>
 
 <details class="page__content" itemprop="text">
   <summary>
-    <b>Tutorial 05</b> - Interpolation (<a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/05-interpolation.ipynb">nbviever</a>, <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F05-interpolation.ipynb">binder</a>)
+    <b>Tutorial 05</b> - Interpolation
   </summary>
   <p>
-    Tutorial description
+    Interpolation and extrapolation, piece-wise linear interpolation, Lagrange interpolation and Neville's algorithm, Newton interpolation, Chebyshev approximation and polynomials, cubic spline, least square approximation (<a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/05-interpolation.ipynb">nbviever</a>, <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F05-interpolation.ipynb">binder</a>, <a href="https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/05-interpolation.ipynb">ipynb</a>)
   </p>
 </details>
 
 <details class="page__content" itemprop="text">
   <summary>
-    <b>Tutorial 06</b> - Data sorting (<a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/06-data_sorting.ipynb">nbviever</a>, <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F06-data_sorting.ipynb">binder</a>)
+    <b>Tutorial 06</b> - Data sorting 
   </summary>
   <p>
-    Tutorial description
+    Various algorithms for data sorting and their comparison, bubble sort, selection sort, insertion sort, shell sort, quicksort, heap sort, benchmarking (<a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/06-data_sorting.ipynb">nbviever</a>, <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F06-data_sorting.ipynb">binder</a>, <a href="https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/06-data_sorting.ipynb">ipynb</a>)
   </p>
 </details>
 
 <details class="page__content" itemprop="text">
   <summary>
-    <b>Tutorial 07</b> - Nonlinear equations (<a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/07-nonlinear_equations.ipynb">nbviever</a>, <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F07-nonlinear_equations.ipynb">binder</a>)
+    <b>Tutorial 07</b> - Nonlinear equations 
   </summary>
   <p>
-    Tutorial description
+    Root finding and nonlinear set of equations, bisection method, secant method, false position method, Newton-Raphson method (<a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/07-nonlinear_equations.ipynb">nbviever</a>, <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F07-nonlinear_equations.ipynb">binder</a>, <a href="https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/07-nonlinear_equations.ipynb">ipynb</a>)
   </p>
 </details>
 
 <details class="page__content" itemprop="text">
   <summary>
-    <b>Tutorial 08</b> - Numerical optimization (<a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/08-optimization.ipynb">nbviever</a>, <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F08-optimization.ipynb">binder</a>)
+    <b>Tutorial 08</b> - Numerical optimization
   </summary>
   <p>
-    Tutorial description
+    Search for extremes of functions, golden section search, parabolic interpolation search, gradient descent (<a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/08-optimization.ipynb">nbviever</a>, <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F08-optimization.ipynb">binder</a>, <a href="https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/08-optimization.ipynb">ipynb</a>)
   </p>
 </details>
 
 <details class="page__content" itemprop="text">
   <summary>
-    <b>Tutorial 09</b> - Quadrature (<a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/09-quadrature.ipynb">nbviever</a>, <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F09-quadrature.ipynb">binder</a>)
+    <b>Tutorial 09</b> - Quadrature
   </summary>
   <p>
-    Tutorial description
+    Numerical integration of functions, rectangular rule, trapezoidal rule, Simpson's rule, Romberg's method, Gaussian quadrature, Monte-Carlo integration and random number generators (<a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/09-quadrature.ipynb">nbviever</a>, <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F09-quadrature.ipynb">binder</a>, <a href="https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/09-quadrature.ipynb">ipynb</a>)
   </p>
 </details>
 
 <details class="page__content" itemprop="text">
   <summary>
-    <b>Tutorial 10</b> - Initial value problems (<a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/10-initial_value_problems.ipynb">nbviever</a>, <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F10-initial_value_problems.ipynb">binder</a>)
+    <b>Tutorial 10</b> - Initial value problems
   </summary>
   <p>
-    Tutorial description
+    Initial value problems of ordinary differential equations, explicit and implicit Euler's method, Runge-Kutta methods, Leap-Frog, Adams-Bashford, Adams-Moulton, predictor-corrector, Bulirsch-Stoer algorithm, stiff equations (<a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/10-initial_value_problems.ipynb">nbviever</a>, <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F10-initial_value_problems.ipynb">binder</a>, <a href="https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/10-initial_value_problems.ipynb">ipynb</a>)
   </p>
 </details>
 
 <details class="page__content" itemprop="text">
   <summary>
-    <b>Tutorial 11</b> - Boundary value problems (<a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/11-boundary_value_problems.ipynb">nbviever</a>, <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F11-boundary_value_problems.ipynb">binder</a>)
+    <b>Tutorial 11</b> - Boundary value problems
   </summary>
   <p>
-    Tutorial description
+    Boundary value problems of ordinary differential equations, finite difference method, shooting method (<a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/11-boundary_value_problems.ipynb">nbviever</a>, <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F11-boundary_value_problems.ipynb">binder</a>, <a href="https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/11-boundary_value_problems.ipynb">ipynb</a>)
   </p>
 </details>
 
@@ -189,14 +189,21 @@ Alternatively, if you do not have installed Anaconda, you may launch the noteboo
     <b>Tutorial 12</b> - Individual consultations, evaluation of assessment tasks
   </summary>
   <p>
-    Tutorial description
+    Final tutorial, refreshing of selected topics
   </p>
 </details>
 
 </section>
 
-
 The study materials are evolving quickly. Therefore, if you find any mistake, please submit an [issue](https://github.com/valenpe7/numerical_methods/issues) to the GitHub project repository.
+
+### Recommended literature:
+
+[1] W.H. Press, B.P. Flannery, S.A. Teukolsky, V. H. Vetterling: Numerical Recipes in C++ (The art of scientific computing), Cambridge University Press, Cambridge, 3rd edition 2007 (also versions for C, 2nd edition 1993 and Fortran, 2nd edition 1993) (available at http://www.numerical.recipes/oldverswitcher.html).
+
+[2] A. Ralston, P. Rabinowicz, A First Course in Numerical Analysis, McGraw-Hill 1965 (reprinted by Dover Publications, 2001).
+
+[3] R.W. Hamming, Numerical Methods for Scientists and Engineers, 2nd edition, Dover Publications 1986.
 
 ### Useful links (in Czech):
 
