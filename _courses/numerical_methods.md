@@ -199,7 +199,7 @@ The study materials are evolving quickly. Therefore, if you find any mistake, pl
 
 ### Recommended literature:
 
-[1] W.H. Press, B.P. Flannery, S.A. Teukolsky, V. H. Vetterling: Numerical Recipes in C++ (The art of scientific computing), Cambridge University Press, Cambridge, 3rd edition 2007 (also versions for C, 2nd edition 1993 and Fortran, 2nd edition 1993) (available at http://www.numerical.recipes/oldverswitcher.html).
+[1] W.H. Press, B.P. Flannery, S.A. Teukolsky, V. H. Vetterling: Numerical Recipes in C++ (The art of scientific computing), Cambridge University Press, Cambridge, 3rd edition 2007 (available at [http://www.numerical.recipes/oldverswitcher.html](http://www.numerical.recipes/oldverswitcher.html)).
 
 [2] A. Ralston, P. Rabinowicz, A First Course in Numerical Analysis, McGraw-Hill 1965 (reprinted by Dover Publications, 2001).
 

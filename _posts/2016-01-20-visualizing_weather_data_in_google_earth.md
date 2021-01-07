@@ -280,7 +280,9 @@ $$ \small{F \left( \vec{x} \right) = \sum_{i = 1}^{N} \omega_{i} \left( \vec{x} 
 
 where the weighting function $ \omega_{i} \left( \vec{x} \right) $ is defined by Shepard as follows [[1](#ref_1)],
 
-$$ \small{\omega_{i} \left( \vec{x} \right) = \frac{1}{\mathrm{d} \left( \vec{x}, \: \vec{x}_{i}\right) ^{p}} \cdot \frac{1}{\sum \limits_{j = 1}^{N} \frac{1}{\mathrm{d} \left( \vec{x}, \: \vec{x}_{j}\right) ^{p}}}, \qquad \mathrm{d}\left( \vec{x}, \: \vec{x}_{i} \right) = \lVert \vec{x} - \vec{x}_{i} \rVert} $$
+$$ \small{\omega_{i} \left( \vec{x} \right) = \frac{1}{\mathrm{d} \left( \vec{x}, \: \vec{x}_{i}\right) ^{p}} \cdot \frac{1}{\sum \limits_{j = 1}^{N} \frac{1}{\mathrm{d} \left( \vec{x}, \: \vec{x}_{j}\right) ^{p}}}}, $$
+
+$$ \small{\mathrm{d}\left( \vec{x}, \: \vec{x}_{i} \right) = \lVert \vec{x} - \vec{x}_{i} \rVert} $$
 
 and $ p $ is a positive real number, called the power parameter.
 
