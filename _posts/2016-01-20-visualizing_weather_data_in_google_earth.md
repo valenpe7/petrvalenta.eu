@@ -486,8 +486,8 @@ There exists a KML library written in C++ called [`libkml`](https://code.google.
 
 ### References
 
-[<a name="ref_1">1</a>] Shepard, D., "A two-dimensional interpolation function for irregularly-spaced data", *Proceedings of the 1968 ACM National Conference*, pp. 517 - 524.
+[<a id="ref_1">1</a>] Shepard, D., "A two-dimensional interpolation function for irregularly-spaced data", *Proceedings of the 1968 ACM National Conference*, pp. 517 - 524.
 
-[<a name="ref_2">2</a>] Hardy, R., "Multiquadric equations of topography and other irregular surfaces", *Journal of Geophysical Research* 76, pp. 1905 - 1915 (1971).
+[<a id="ref_2">2</a>] Hardy, R., "Multiquadric equations of topography and other irregular surfaces", *Journal of Geophysical Research* 76, pp. 1905 - 1915 (1971).
 
-[<a name="ref_3">3</a>] Micchelli, C., "Interpolation of scattered data: Distance matrices and conditionally positive definite functions", *Constructive Approximation* 2, pp. 11 – 22 (1986).
+[<a id="ref_3">3</a>] Micchelli, C., "Interpolation of scattered data: Distance matrices and conditionally positive definite functions", *Constructive Approximation* 2, pp. 11 – 22 (1986).

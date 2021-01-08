@@ -104,10 +104,6 @@ body {
     &:hover .header-link {
 			opacity: 1;
 		}
-
-    // fix anchor offset for sticky header
-    padding-top: $masthead-height;
-    margin-top: -$masthead-height;
     
 	}
 
@@ -153,10 +149,6 @@ body {
     color: #0000ff;
     //color: #ffffff;
     
-    // fix anchor offset for sticky header
-    scroll-margin-top: $masthead-height;
-    
-
     &:hover {
       text-decoration: underline;
       //text-decoration: none;
