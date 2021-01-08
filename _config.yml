@@ -194,8 +194,9 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 # Collections
 collections:
-  courses:
+  teaching:
     output: true
+    permalink: /:collection/:path/
 
 
 # Conversion
@@ -301,7 +302,7 @@ defaults:
   # _courses
   - scope:
       path: ""
-      type: courses
+      type: teaching
     values:
       layout: single
       author_profile: true

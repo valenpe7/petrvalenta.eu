@@ -5,9 +5,6 @@ excerpt: "This article describes my approach of interpolating weather data in or
 #(toc: true)
 #(toc_sticky: true)
 header:
-  image: /assets/images/header.jpg
-  caption: 2D simulation of laser-plasma interaction
-  image_description: 2D simulation of laser-plasma interaction
   teaser: /assets/images/img_03.jpg
 tags: 
   - science

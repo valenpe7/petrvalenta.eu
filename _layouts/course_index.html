@@ -6,7 +6,7 @@ layout: archive
 
 {{ content }}
 
-{% assign courses = site.courses | sort: 'title' %}
+{% assign courses = site.teaching | sort: 'title' %}
 {% for course in courses %}
   <h2 class="archive__item-title"><a href="{{ course.url }}">{{ course.title }}</a></h2>
   {% if course.excerpt %}
