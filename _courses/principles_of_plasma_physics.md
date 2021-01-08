@@ -95,15 +95,15 @@ Here you can find auxiliary study materials for undergraduate course **12ZFP - P
 
 ### Recommended literature:
 
-[1] F.F. Chen, Plasma Physics and Controlled Fusion, 2nd ed., Plenum Press, 1984.
+[1] F.F. Chen, *Plasma Physics and Controlled Fusion*, 2nd ed., Plenum Press, 1984.
 
-[2] D.R. Nicholson, Introduction to Plasma Theory, J. Wiley 1983.
+[2] D.R. Nicholson, *Introduction to Plasma Theory*, J. Wiley, 1983.
 
-[3] S. Ichimaru, Statistical Plasma Physics, Volume I: Basic Principles, Addison-Wesley, Redwood City, 1992.
+[3] S. Ichimaru, *Statistical Plasma Physics*, Volume I: Basic Principles, Addison-Wesley, Redwood City, 1992.
 
-[4] S. Eliezer: The Interactions of High-Power Lasers with Plasma, IOP Publishing, Bristol 2002.
+[4] S. Eliezer, *The Interactions of High-Power Lasers with Plasma*, IOP Publishing, Bristol 2002.
 
-[5] D. Salzman: Atomic Physics in Hot Plasmas, Oxford University Press, Oxford 1998.
+[5] D. Salzman, *Atomic Physics in Hot Plasmas*, Oxford University Press, Oxford 1998.
 
 ### Useful links (in Czech):
 
