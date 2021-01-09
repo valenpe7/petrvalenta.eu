@@ -8,11 +8,26 @@ layout: default
   {% include page__hero_video.html %}
 {% endif %}
 
+{% assign exclude_urls = "/" | split: ',' %}
+{% for mains in site.data.navigation.main %}
+  {% assign exclude_urls = exclude_urls | push: mains.url %}
+{% endfor %}
+
+{% if site.breadcrumbs %}
+  {% unless exclude_urls contains page.url %}
+    {% unless paginator %}
+      {% include breadcrumbs.html %}
+    {% endunless %}
+  {% endunless %}
+{% endif %}
+
+<!--
 {% if page.url != "/" and site.breadcrumbs %}
   {% unless paginator %}
     {% include breadcrumbs.html %}
   {% endunless %}
 {% endif %}
+-->
 
 <div id="main" role="main">
   {% include sidebar.html %}

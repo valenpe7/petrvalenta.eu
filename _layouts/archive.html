@@ -8,11 +8,26 @@ layout: default
   {% include page__hero_video.html %}
 {% endif %}
 
-{% if page.url != "/" and site.breadcrumbs %}
+{% assign exclude_urls = "/" | split: ',' %}
+{% for mains in site.data.navigation.main %}
+  {% assign exclude_urls = exclude_urls | push: mains.url %}
+{% endfor %}
+
+{% if site.breadcrumbs %}
+  {% unless exclude_urls contains page.url %}
+    {% unless paginator %}
+      {% include breadcrumbs.html %}
+    {% endunless %}
+  {% endunless %}
+{% endif %}
+
+<!--
+{% if site.breadcrumbs and page.url != "/" and page.url != "/posts/" and page.url != "/teaching/" and page.url != "/publications/" and page.url != "/curriculum/" %}
   {% unless paginator %}
     {% include breadcrumbs.html %}
   {% endunless %}
 {% endif %}
+-->
 
 <div id="main" role="main">
   {% include sidebar.html %}
