@@ -191,7 +191,6 @@ body {
   animation: $intro-transition;
   -webkit-animation-delay: 0.25s;
   animation-delay: 0.25s;
-  //padding-top: $masthead-height;
 
   &:after {
     content: "";
@@ -226,6 +225,10 @@ body {
     animation: $intro-transition;
     -webkit-animation-delay: 0.25s;
     animation-delay: 0.25s;
+    
+    @include breakpoint($large) {
+      min-height: 480px;
+    }
 
     a {
       color: #fff;
@@ -237,6 +240,7 @@ body {
 
       @include breakpoint($x-large) {
         max-width: $x-large;
+        padding-right: 25em;
       }
     }
 
@@ -254,11 +258,33 @@ body {
 
     .page__title {
       font-size: $type-size-2;
-
+    
       @include breakpoint($small) {
         font-size: $type-size-1;
       }
     }
+
+    &:after {
+      content: "";
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left: 8%;
+      width: 0;
+      height: 0;
+      border: 25px solid transparent;
+      border-bottom-color: #fff;
+      @include breakpoint($small) {
+        left: 20%;
+      }
+      @include breakpoint($large) {
+        border-width: 30px;
+      }
+      @include breakpoint($x-large) {
+        left: 33.33333%;
+      }
+    }
+
   }
 }
 
