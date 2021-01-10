@@ -208,7 +208,7 @@
   button {
     position: relative;
     margin-bottom: 0;
-    margin-left: -115px;
+    margin-left: -112px;
 
     &:before {
       @supports (pointer-events: none) {
@@ -249,7 +249,7 @@
 
   &.is--visible {
     display: block;
-    right: 35px;
+    right: 32px;
   }
 
   @include breakpoint($large) {
