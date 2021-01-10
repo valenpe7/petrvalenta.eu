@@ -1,8 +1,8 @@
 ---
 
-title: All posts
-permalink: "/posts/"
-layout: post_index
+title: "Posts by tag"
+permalink: /tags/
+layout: tags
 author_profile: true
 header:
   overlay_image: /assets/images/header.jpg

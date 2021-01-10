@@ -2,6 +2,8 @@
 layout: archive
 ---
 
+<h3 id="page-title" class="archive__subtitle">{{ site.data.ui-text[site.locale].posts_by_tag | default: "Posts by tag" }}</h3>
+
 {{ content }}
 
 {% assign tags_max = 0 %}
@@ -17,7 +19,7 @@ layout: archive
       {% if tag[1].size == i %}
         <li>
           <a href="#{{ tag[0] | slugify }}">
-            <strong>{{ tag[0] }}</strong> <span class="taxonomy__count">{{ i }}</span>
+            <strong>{{ tag[0] | prepend: "#" }}</strong><span class="taxonomy__count">{{ i }}</span>
           </a>
         </li>
       {% endif %}
@@ -29,14 +31,16 @@ layout: archive
   {% for tag in site.tags %}
     {% if tag[1].size == i %}
       <section id="{{ tag[0] | slugify | downcase }}" class="taxonomy__section">
-        <h2 class="archive__subtitle">{{ tag[0] }}</h2>
+        <h2 class="archive__subtitle">{{ tag[0] | prepend: "#" }}</h2>
         <div class="entries-{{ page.entries_layout | default: 'list' }}">
           {% for post in tag.last %}
             {% include archive-single.html type=page.entries_layout %}
           {% endfor %}
         </div>
-        <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+        <!-- <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a> -->
       </section>
     {% endif %}
   {% endfor %}
 {% endfor %}
+
+<a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a> 

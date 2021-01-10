@@ -12,6 +12,7 @@ layout: default
 {% for mains in site.data.navigation.main %}
   {% assign exclude_urls = exclude_urls | push: mains.url %}
 {% endfor %}
+{% assign exclude_urls = exclude_urls | push: "/tags/" %}
 
 {% if site.breadcrumbs %}
   {% unless exclude_urls contains page.url %}
