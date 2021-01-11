@@ -2,7 +2,13 @@
 layout: archive
 ---
 
-<h3 id="page_top" class="archive__subtitle">{{ site.data.ui-text[site.locale].posts_by_tag | default: "Posts by tag" }}</h3>
+<h3 id="page_top" class="archive__subtitle">{{ page.title }}</h3>
+
+<section class="page__content" itemprop="text">
+  <br/>
+  <p>The posts in this list are ordered by tag, click <a href="/posts/">here</a> for ordering by date instead.</p>
+  <br/>
+</section>
 
 {{ content }}
 
