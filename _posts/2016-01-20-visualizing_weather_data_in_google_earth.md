@@ -1,7 +1,7 @@
 ---
 
 title: Visualizing weather data in Google Earth
-excerpt: "This article describes my approach of interpolating weather data in order to visualize them in Google Earth. One can find a detail explanation of individual steps of the implementation as well as used data structures."
+excerpt: "The goal of this project was to visualize data from Meteo France in Google Earth using several methods presented in the course. Meteo France provides publicly available weather data such as temperatures or atmospheric pressures at several locations. The work consists of the following four main steps: read and import the scattered data (longitude, latitude, temperature, pressure, and wind velocity)" 
 toc: true
 toc_sticky: true
 header:

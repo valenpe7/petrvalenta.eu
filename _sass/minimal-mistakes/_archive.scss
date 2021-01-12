@@ -75,6 +75,8 @@
 .archive__item-excerpt {
   margin-top: 0;
   font-size: $type-size-6;
+  text-align: justify;
+  text-justify: inter-word;
 
   & + p {
     text-indent: 0;

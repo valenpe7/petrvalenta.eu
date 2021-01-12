@@ -31,7 +31,7 @@
       -->
       <h2 id="page-title" class="page__title" itemprop="headline">New post:</h2>
       {% if posts_by_date[0].title %}<h3 class="page__lead">{{ posts_by_date[0].title | markdownify | strip_html }}</h3>{% endif %}
-      {% if posts_by_date[0].excerpt %}<p class="page__meta">{{ posts_by_date[0].excerpt | markdownify | strip_html | truncate: 250 }}</p>{% endif %}
+      {% if posts_by_date[0].excerpt %}<p class="page__meta">{{ posts_by_date[0].excerpt | markdownify | strip_html | truncate: 335 }}</p>{% endif %}
       <p>
       <a href="{{ posts_by_date[0].url }}" class="btn btn--light-outline btn--large">Read more</a>
       {% if page.tagline %}
