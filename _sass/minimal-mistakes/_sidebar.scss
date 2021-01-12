@@ -72,13 +72,15 @@
   }
 }
 
+
+
 .sidebar__right {
-  margin-top: -4em;
-  margin-bottom: 1em;
+  //margin-top: 1em;
+  //margin-bottom: 1em;
 
   @include breakpoint($large) {
     position: absolute;
-    top: -4em;
+    //top: 0;
     right: 0;
     width: $right-sidebar-width-narrow;
     margin-right: -1 * $right-sidebar-width-narrow;
@@ -89,7 +91,7 @@
       @include clearfix();
       position: -webkit-sticky;
       position: sticky;
-      top: 5em;
+      //top: 0;
       float: right;
     }
   }
@@ -98,7 +100,13 @@
     width: $right-sidebar-width;
     margin-right: -1 * $right-sidebar-width;
   }
+
+  > * {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
 }
+
 
 .splash .sidebar__right {
   @include breakpoint($large) {
@@ -357,4 +365,3 @@
     margin-right: initial;
   }
 }
-

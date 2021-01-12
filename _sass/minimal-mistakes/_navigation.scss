@@ -516,7 +516,7 @@
 
   // Scrollspy marks toc items as .active when they are in focus
   .active a {
-    @include yiq-contrasted(#000000);
+    @include yiq-contrasted(#4d4d4d);
   }
 }
 
@@ -526,8 +526,6 @@
   width: 100%;
   list-style: none;
   font-size: $type-size-5;
-  //text-color: #000;
-  //color: #000;
 
   @include breakpoint($large) {
     font-size: $type-size-5;
@@ -536,23 +534,27 @@
   a {
     display: block;
     padding: 0.25rem 0.75rem;
-    //color: #000;
-    //font-weight: bold;
-    //text-color: #000;
+    color: #ffffff !important;
+    text-align: left !important;
     line-height: 2.0;
     border-bottom: 1px solid $border-color;
-    background: lighten(#000, 30);
-    opacity: 0.7;
-    -webkit-transition: opacity 0.2s ease-in-out;
-    transition: opacity 0.2s ease-in-out;
+    //background: lighten(#000, 30);
+    //opacity: 0.7;
+    background-color: #828282;
+    //-webkit-transition: opacity 0.2s ease-in-out;
+    //transition: opacity 0.2s ease-in-out;
     &:hover {
-      opacity: 1;
+      //opacity: 1;
+      background-color: #4d4d4d;
+      -webkit-transition: background-color 100ms linear;
+      -ms-transition: background-color 100ms linear;
+      transition: background-color 100ms linear;
+      text-decoration: none !important;
     }
   }
 
   li ul > li a {
     padding-left: 1.25rem;
-    //font-weight: normal;
   }
 
   li ul li ul > li a {
