@@ -10,7 +10,7 @@ layout: archive
 {% for course in courses %}
   <h2 class="archive__item-title"><a href="{{ course.url }}">{{ course.title }}</a></h2>
   {% if course.excerpt %}
-    <p class="archive__item-excerpt" itemprop="description">{{ course.excerpt | markdownify | strip_html | truncate: 250 }}</p>
+    <p class="archive__item-excerpt" itemprop="description">{{ course.excerpt | markdownify | strip_html | truncate: 285 }}</p>
   {% endif %}
 {% endfor %}
 
