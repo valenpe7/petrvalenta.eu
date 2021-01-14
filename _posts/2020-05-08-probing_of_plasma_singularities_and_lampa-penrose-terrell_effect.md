@@ -25,7 +25,7 @@ The density singularities play an important role in many envisioned plasma-based
 
 ### Schlieren imaging
 
-<figure id="figure_1" style="width: 250px" class="align-right">
+<figure id="figure_1" style="max-width: 250px" class="align-right">
   <a href="/assets/images/2020-05-08/img_02.jpg" class="image-popup">
     <img src="/assets/images/2020-05-08/img_02.jpg" alt="Schlieren imaging">
   </a>
@@ -42,7 +42,7 @@ The authors demonstrate their method on one particularly interesting example of 
 
 The authors note that the image of the constellation of density singularities in plasma will be such as if the singularities were slightly rotated with respect to each other – this corresponds to the Lampa-Penrose-Terrell effect (see <a href="#figure_2">Figure 2</a>).
 
-<figure id="figure_2" style="width: 375px" class="align-center">
+<figure id="figure_2" style="max-width: 400px" class="align-center">
   <a href="/assets/images/2020-05-08/img_01.jpg" class="image-popup">
     <img src="/assets/images/2020-05-08/img_01.jpg" alt="Lampa-Penrose-Terrell effect">
   </a>
