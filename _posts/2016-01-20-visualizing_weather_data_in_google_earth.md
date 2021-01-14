@@ -25,7 +25,7 @@ The goal of this project was to visualize data from [Meteo France](http://www.me
 * calculate colormap images and isocontours from the interpolated data
 * export the colormap images and the isocontours in a [KML](https://en.wikipedia.org/wiki/Keyhole_Markup_Language) (Keyhole Markup Language) file in order to visualize the data in Google Earth
 
-In several next sections, you can find the results of this task and also a detailed description of individual steps of the implementation which leads to the final visualization.
+In several next sections, you can find the results of this task and also a detailed description of individual steps of the implementation which lead to the final visualization.
 
 ### Solution
 
@@ -43,7 +43,7 @@ I have carried out this project using C++ programming language. First, I am atta
   </figcaption> 
 </figure>
 
-The data processing pipeline which leads from the initial data reading to the final visualization is hardcoded in function `run_visualization` that is shown below:
+The data processing pipeline which goes from the initial data reading to the final visualization is hardcoded in function `run_visualization` that is shown below:
 {% highlight cpp linenos %}
 void run_visualization(std::string input_file) {
   weather_data quantity;
@@ -67,7 +67,7 @@ For the code compilation, one can use attached bash script `compile.sh` which ex
 **Tip:** The source code of this work can be found in [this](https://github.com/valenpe7/scientific_visualization) GitHub repository.
 {: .notice--success}
 
-The main idea how to deal with several steps of the implementation was to make only one class for the data processing, which includes data structures for scattered and uniform data as well as all methods beginning with reading of the input data and ending with the required visualization. One can find the listings of this class below, individual methods and data structures will be described later.
+The main idea how to deal with several steps of the implementation was to make a single class for the data processing, which includes data structures for scattered and uniform data as well as all methods beginning with reading of the input data and ending with the required visualization. One can find the listings of this class below, individual methods and data structures will be described later.
 
 {% highlight cpp linenos %}
 class weather_data {
@@ -91,11 +91,11 @@ private:
 };
 {% endhighlight %}
 
-The main advantage of this approach is simpler and faster way to access the data during the interpolation of scattered data to the uniform grid. The drawback is obviously inability to use the code for solving another similar problems as well as more difficult development of the code extensions.
+The main advantage of this approach is simpler and faster way to access the data during the interpolation of scattered data to the uniform grid. The drawback is obviously inability to use the code for solving other similar problems as well as more difficult development of the code extensions.
 
 #### Reading input data
 
-The first step is to gather and parse the data. Meteo France provides publicly available data including atmospheric parameters measured or observed at the several France meteorological stations in the CSV (Comma-Separated Values) file format. For the purposes of the project, we are interested in temperature, atmospheric pressure and wind velocity. Since all the data undergo the same process before the final visualization, the data are loaded from separate CSV files, which have to contain three columns. The first two are dedicated for latitude and longitude of the site and the last one for the value of the measured parameter.
+The first step is to gather and parse the data. Meteo France provides publicly available data including atmospheric parameters measured at several France meteorological stations in the CSV (Comma-Separated Values) file format. For the purposes of the project, we are interested in temperature, atmospheric pressure and wind velocity. Since all the data undergo the same process before the final visualization, the data are loaded from separate CSV files, which have to contain three columns. The first two are dedicated for latitude and longitude of the site and the last one for the value of the measured parameter.
 
 Scattered data are parsed into the following data structure:
 {% highlight cpp linenos %}
@@ -150,11 +150,11 @@ void weather_data::load_data(std::string filename) {
   return;
 }
 {% endhighlight %}
-This method reads and imports the data from a given file and keeps the name of the file, number of rows and boundaries. 
+This method reads and imports the data from a given file, finds the boundaries and stores the name of the file. 
 
 #### Creating uniform grid
 
-Since the input data are loaded, we need to create a two dimensional uniform grid to be able to perform interpolation. Similarly as before, we need a data structure for uniform data:
+Since the input data are loaded, we need to create a two-dimensional uniform grid to be able to perform interpolation. Similarly as before, we need a data structure for uniform data:
 {% highlight cpp linenos %}
 typedef struct {
   std::array<unsigned int, 2> size;
@@ -201,7 +201,7 @@ private:
 };
 {% endhighlight %}
 
-The second data type is used to describe nodes. This class is significantly simpler than the cell class, it contains only ID and three floating point numbers: latitude, longitude and the value of measured parameter:
+The second data type is used to describe nodes. This class is much simpler than the cell class, it contains only ID and three floating point numbers: latitude, longitude and the value of measured parameter:
 {% highlight cpp linenos %}
 class node {
   friend class cell;
@@ -271,7 +271,7 @@ This method takes the size of the grid in both directions as an argument. The gr
 
 The crucial step is the interpolation of scattered data in order to evaluate measured parameters at the grid points. In accordance with the project specifications, two following methods have been used:
 
-- *Shepard's method*
+##### Shepard's method
 
 The principle of finding an interpolated value of scattered data $ f_{i} = f\left( \vec{x}_{i} \right) $ for $ i \in \left\lbrace 1, \ldots, N \right\rbrace $ at a given point $ \vec{x} $ using Shepard's method, is based on constructing an interpolating function
 
@@ -314,7 +314,7 @@ weather_data& weather_data::shepard_interpolation(double p) {
 }
 {% endhighlight %}
 
-- *Hardy multiquadrics*
+#### Hardy multiquadrics
 
 The second method which has been implemented is called Hardy multiquadrics. Now, we are looking for the interpolating function in the following form [[2](#ref_2)],
 $$ \small{F\left( \vec{x} \right) = \sum_{i = 1}^{N} \alpha_{i} h_{i} \left( \vec{x} \right)}, $$
@@ -359,7 +359,7 @@ The system of linear equations is solved using LU decomposition from the `Eigen`
 
 #### Calculating colormaps
 
-Since we have interpolated values of measured parameter at each grid point, one is able to compute a colormap. The idea is to calculate an average value of the four nodes assigned to each cell. Then the maximum and minimum of average values are determined and the interval formed by these two numbers is divided into several parts corresponding to the number of colors in the used color table. Afterwards, each cell will get the RGB value from the color table according to its average value. The implementation has been done as follows:
+Since we have interpolated values of measured parameter at each grid point, one is able to compute a colormap. The idea is to calculate an average value of the four nodes assigned to each cell. Then the maximum and minimum of average values are determined and the interval formed by these two numbers is divided into several parts corresponding to the number of colors in the color table. Afterwards, each cell will get the RGB value from the color table according to its average value. The implementation has been done as follows:
 {% highlight cpp linenos %}
 weather_data& weather_data::compute_colormap(std::vector<std::array<int, 4>> color_table) {
   std::cout << "computing colormap.. " << std::endl;
