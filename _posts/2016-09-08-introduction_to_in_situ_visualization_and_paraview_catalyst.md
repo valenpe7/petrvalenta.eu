@@ -5,7 +5,7 @@ excerpt: "Traditionally, the process of performing numerical simulations consist
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/img_02.jpg
+  teaser: /assets/images/2016-09-08/img_02.jpg
 tags: 
   - science
   - visualization
@@ -26,7 +26,7 @@ On the other hand, increasing demands of the simulations need more data to be st
 
 In situ visualization stands for the technique, where the data are visualized in real-time, as it is being produced by simulation, and without involving storage resources. By using the visualization and simulation together, one can overcome the bottleneck of data transfer. Furthermore, this approach allows to monitor and interact with running simulation, so its parameters can be modified and scientist can immediately see the effect on investigating phenomena.
 
-{% include figure image_path="/assets/images/img_01.jpg" alt="In situ visualization allows to observe results during the simulation runtime." caption="In situ visualization allows to observe results during the simulation runtime." %}{: .align-center}
+{% include figure image_path="/assets/images/2016-09-08/img_01.jpg" alt="In situ visualization allows to observe results during the simulation runtime." caption="In situ visualization allows to observe results during the simulation runtime." %}{: .align-center}
 
 Researchers in [OGS](https://www.inogs.it/en/) (National Institute of Oceanography and Experimental Geophysics) use a 3D numerical model OGSTM–BFM to study the nutrient and carbon cycles in the Mediterranean Sea and their sensitivity to climatic changes. The model computes biogeochemical fluxes which transform organic and inorganic components. Recent requirement of increasing the spatial and temporal scales of the simulations encounters aforementioned problems, thus the computation time is longer and it becomes very difficult to analyse produced data.
 
@@ -43,7 +43,7 @@ Recently, there has already been done a significant work in the development of s
 
 Catalyst, a relatively new component of ParaView, has been designed for fast integration with numerical codes and performing real-time analysis of generated data. It changes the traditional three-step simulation workflow. Here you first specify, which data you would like to see and analyse in situ. For this reason Catalyst uses a pipelines that are executed during the initial phase of the numerical simulation. In these pipelines, you can utilize all the post-processing capabilities which ParaView offers. In other words, you select the data which simulation produce, then apply filters such as slices, streamlines or iso-surfaces and finally choose what should be dumped for deeper investigation. This way, the output can be significantly reduced because the processed elements, which carry all the information you are interested in, are much smaller than the full datasets.
 
-{% include figure image_path="/assets/images/img_02.jpg" alt="Example of simulation connected to Catalyst. In the top-left window you can see the Catalyst sources and the datasets that are extracted to the server. Real-time results are then visualised in the main window." caption="Example of simulation connected to Catalyst. In the top-left window you can see the Catalyst sources and the datasets that are extracted to the server. Real-time results are then visualised in the main window." %}{: .align-center}
+{% include figure image_path="/assets/images/2016-09-08/img_02.jpg" alt="Example of simulation connected to Catalyst. In the top-left window you can see the Catalyst sources and the datasets that are extracted to the server. Real-time results are then visualised in the main window." caption="Example of simulation connected to Catalyst. In the top-left window you can see the Catalyst sources and the datasets that are extracted to the server. Real-time results are then visualised in the main window." %}{: .align-center}
 
 ### Adaptors and pipelines
 

@@ -5,7 +5,7 @@ excerpt: "The goal of this project was to visualize data from Meteo France in Go
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/img_03.jpg
+  teaser: /assets/images/2016-01-20/img_01.jpg
 tags: 
   - science
   - visualization
@@ -32,11 +32,11 @@ In several next sections, you can find the results of this task and also a detai
 I have carried out this project using C++ programming language. First, I am attaching several test visualizations that have been exported to Google Earth in order to verify the correctness of the code output. You can find the result in <a href="#figure_1">Figure 1</a>. 
 
 <figure id="figure_1" class="half">
-  <a href="/assets/images/img_03.jpg" class="image-popup">
-    <img src="/assets/images/img_03.jpg" alt="">
+  <a href="/assets/images/2016-01-20/img_01.jpg" class="image-popup">
+    <img src="/assets/images/2016-01-20/img_01.jpg" alt="">
   </a>
-  <a href="/assets/images/img_04.jpg" class="image-popup">
-    <img src="/assets/images/img_04.jpg" alt="">
+  <a href="/assets/images/2016-01-20/img_02.jpg" class="image-popup">
+    <img src="/assets/images/2016-01-20/img_02.jpg" alt="">
   </a>
   <figcaption>
     <b>Fig. 1</b> Colormaps and isocontours of temperature (left) and wind velocity (right) visualized in Google Earth.
