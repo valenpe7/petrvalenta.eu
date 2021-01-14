@@ -314,7 +314,7 @@ weather_data& weather_data::shepard_interpolation(double p) {
 }
 {% endhighlight %}
 
-#### Hardy multiquadrics
+##### Hardy multiquadrics
 
 The second method which has been implemented is called Hardy multiquadrics. Now, we are looking for the interpolating function in the following form [[2](#ref_2)],
 $$ \small{F\left( \vec{x} \right) = \sum_{i = 1}^{N} \alpha_{i} h_{i} \left( \vec{x} \right)}, $$
