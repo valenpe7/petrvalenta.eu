@@ -1,7 +1,7 @@
 ---
 
 title: Probing of plasma singularities and Lampa-Penrose-Terrell effect
-excerpt: "Team of researchers from ELI Beamlines (Czech Rep.), Kansai Photon Science Institute (Japan), and Central Laser Facility (UK) have proposed a method for observing the Lampa-Penrose-Terrell effect via optical probing of relativistic plasma singularities, according to a paper recently published in Physics of Plasmas"
+excerpt: "Team of researchers from Kansai Photon Science Institute (Japan), ELI Beamlines (Czech Rep.), and Central Laser Facility (UK) have proposed a method for observing the Lampa-Penrose-Terrell effect via optical probing of relativistic plasma singularities, according to a paper recently published in Physics of Plasmas. The authors show that imaging of relativistically moving singularities in plasma density is feasible using an ultrafast optical probe with the schlieren technique."
 toc: true
 toc_sticky: true
 header:
