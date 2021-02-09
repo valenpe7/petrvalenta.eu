@@ -30,7 +30,7 @@ Those who attended the tutorials previous year and did not defend the assessment
 
 ### About the study materials:
 
-The study materials currently consist of only the implementation of selected numerical methods and algorithms (without comments). For closer info, you should attend the tutorials. The methods are written in [Python 3](https://www.python.org/), and organized into a collection of Jupyter notebooks. In addition, they rely on several Python packages:
+The study materials currently consist of only the implementation of selected numerical methods and algorithms (without comments). For closer info, you should attend the tutorials. The methods are written in [Python 3](https://www.python.org/), and organized into a collection of [Jupyter](https://www.jupyter.org) notebooks. In addition, they rely on several Python packages:
 - [numpy](https://numpy.org/) (mainly for data structures)
 - [scipy](https://www.scipy.org/) (for several numerical algorithms)
 - [matplotlib](https://matplotlib.org/) (for visualization)
