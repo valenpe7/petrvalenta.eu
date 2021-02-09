@@ -1,7 +1,7 @@
 ---
 
 title: "12NME - Numerical methods" 
-excerpt: "Principles of numerical mathematics important for numerical solving of problems related mainly to physics and technology. The course covers methods to solve algebraic equations, nonlinear equations, ordinary differential equations (initial and boundary value problems)."
+excerpt: "Principles of numerical mathematics important for numerical solving of problems related mainly to physics and technology are demonstrated using Python programming language. The course covers methods to solve algebraic equations, nonlinear equations, ordinary differential equations (initial and boundary value problems), methods for interpolation and extrapolation, numerical optimization, and data sorting."
 
 ---
 

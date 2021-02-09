@@ -1,7 +1,7 @@
 ---
 
 title: "12ZFP - Principles of plasma physics" 
-excerpt: "Basic physics of high temperature plasmas is explained using particle, kinetic and fluid approaches. The course covers drift motions and adiabatic invariants, linear theory of waves in plasmas and propagation of electromagnetic waves in inhomogeneous plasmas."
+excerpt: "Basic physics of high temperature plasmas is explained using particle, kinetic and fluid approaches. The course covers drift motions and adiabatic invariants, linear theory of waves in plasmas and propagation of electromagnetic waves in inhomogeneous plasmas. Basic non-linear effects, such as ponderomotive force, self-focusing and parametric instabilities are explained."
 
 ---
 
