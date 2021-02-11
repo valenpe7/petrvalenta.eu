@@ -76,40 +76,29 @@ Alternatively, if you do not have installed Anaconda, you may launch the noteboo
 
 ### Tutorials:
 
-<section class="page__content" itemprop="text">
+<section class="page__content" itemprop="text"> 
 
 <details class="page__content" itemprop="text">
-  <summary>
-    <b>Tutorial 00</b> - Introduction to numerical methods
-  </summary>
-  <p>
-    Organization of tutorials, installation and setup of required tools 
-  </p>
+<summary>
+<strong>Tutorial 00</strong> - Introduction to numerical methods (15/02/2021)
+</summary>
+<p markdown="1">
+Organization of tutorials, installation and setup of required tools
+</p>
 </details>
 
 <details class="page__content" itemprop="text">
-  <summary>
-    <b>Tutorial 01</b> - Introduction to Python and Jupyter
-  </summary>
-
-  <p>
-    Basic concepts and features of Python, numeric and math-related functions and data types, Jupyter environment, numpy, scipy, matplotlib modules. 
-  </p>
-
-  <p> Download the 
-    <a href="https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tasks/task_01.ipynb" download>asignment</a> 
-    and submit your soulution in the .ipynb format 
-    <a href="https://form.jotform.com/210404523662042">here</a> 
-    (deadline: 28/02/2021 23:59 CET).
-  </p>
-
-  <p> Materials from lecture:
-    <a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/01-introduction.ipynb">nbviever</a>, 
-    <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F01-introduction.ipynb">binder</a>, 
-    <a href="https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/01-introduction.ipynb" download>ipynb</a>
-  </p>
-
+<summary>
+<strong>Tutorial 01</strong> - Introduction to Python and Jupyter (22/02/2021)
+</summary>
+<p markdown="1">
+Basic concepts and features of Python, numeric and math-related functions and data types, Jupyter environment, numpy, scipy, matplotlib modules.  
+Download the [assignment](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tasks/task_01.ipynb) and submit your soulution in the .ipynb format [here](https://form.jotform.com/210404523662042) (<span style="color:red">deadline: 28/02/2021 23:59 CET</span>).  
+Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/01-introduction.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F01-introduction.ipynb), [ipynb](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/01-introduction.ipynb)
+</p>
 </details>
+
+<!--
 
 <details class="page__content" itemprop="text">
   <summary>
@@ -127,7 +116,7 @@ Alternatively, if you do not have installed Anaconda, you may launch the noteboo
   </p>
 
   <p> Materials from lecture:
-    <a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/02-error_analysis.ipynb">nbviever</a>, 
+    <a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/02-error_analysis.ipynb">nbviewer</a>, 
     <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F02-error_analysis.ipynb">binder</a>, 
     <a href="https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/02-error_analysis.ipynb" download>ipynb</a>
   </p>
@@ -150,7 +139,7 @@ Alternatively, if you do not have installed Anaconda, you may launch the noteboo
   </p>
 
   <p> Materials from lecture:
-    <a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/03-linear_algebra.ipynb">nbviever</a>, 
+    <a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/03-linear_algebra.ipynb">nbviewer</a>, 
     <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F03-linear_algebra.ipynb">binder</a>, 
     <a href="https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/03-linear_algebra.ipynb" download>ipynb</a>
   </p>
@@ -173,7 +162,7 @@ Alternatively, if you do not have installed Anaconda, you may launch the noteboo
   </p>
 
   <p> Materials from lecture:
-    <a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/04-linear_algebra_contd.ipynb">nbviever</a>, 
+    <a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/04-linear_algebra_contd.ipynb">nbviewer</a>, 
     <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F04-linear_algebra_contd.ipynb">binder</a>, 
     <a href="https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/04-linear_algebra_contd.ipynb" download>ipynb</a>
   </p>
@@ -196,7 +185,7 @@ Alternatively, if you do not have installed Anaconda, you may launch the noteboo
   </p>
 
   <p> Materials from lecture:  
-    <a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/05-interpolation.ipynb">nbviever</a>, 
+    <a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/05-interpolation.ipynb">nbviewer</a>, 
     <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F05-interpolation.ipynb">binder</a>, 
     <a href="https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/05-interpolation.ipynb" download>ipynb</a>
   </p>
@@ -219,7 +208,7 @@ Alternatively, if you do not have installed Anaconda, you may launch the noteboo
   </p>
 
   <p> Materials from lecture:
-    <a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/06-data_sorting.ipynb">nbviever</a>, 
+    <a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/06-data_sorting.ipynb">nbviewer</a>, 
     <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F06-data_sorting.ipynb">binder</a>, 
     <a href="https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/06-data_sorting.ipynb" download>ipynb</a>
   </p>
@@ -242,7 +231,7 @@ Alternatively, if you do not have installed Anaconda, you may launch the noteboo
   </p>
 
   <p> Materials from lecture:  
-    <a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/07-nonlinear_equations.ipynb">nbviever</a>, 
+    <a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/07-nonlinear_equations.ipynb">nbviewer</a>, 
     <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F07-nonlinear_equations.ipynb">binder</a>, 
     <a href="https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/07-nonlinear_equations.ipynb" download>ipynb</a>
   </p>
@@ -265,7 +254,7 @@ Alternatively, if you do not have installed Anaconda, you may launch the noteboo
   </p>
 
   <p> Materials from lecture:  
-    <a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/08-optimization.ipynb">nbviever</a>, 
+    <a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/08-optimization.ipynb">nbviewer</a>, 
     <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F08-optimization.ipynb">binder</a>, 
     <a href="https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/08-optimization.ipynb" download>ipynb</a>
   </p>
@@ -288,7 +277,7 @@ Alternatively, if you do not have installed Anaconda, you may launch the noteboo
   </p>
 
   <p> Materials from lecture:  
-    <a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/09-quadrature.ipynb">nbviever</a>, 
+    <a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/09-quadrature.ipynb">nbviewer</a>, 
     <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F09-quadrature.ipynb">binder</a>, 
     <a href="https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/09-quadrature.ipynb" download>ipynb</a>
   </p>
@@ -311,7 +300,7 @@ Alternatively, if you do not have installed Anaconda, you may launch the noteboo
   </p>
 
   <p> Materials from lecture:  
-    <a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/10-initial_value_problems.ipynb">nbviever</a>, 
+    <a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/10-initial_value_problems.ipynb">nbviewer</a>, 
     <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F10-initial_value_problems.ipynb">binder</a>, 
     <a href="https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/10-initial_value_problems.ipynb" download>ipynb</a>
   </p>
@@ -334,7 +323,7 @@ Alternatively, if you do not have installed Anaconda, you may launch the noteboo
   </p>
 
   <p> Materials from lecture: 
-    <a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/11-boundary_value_problems.ipynb">nbviever</a>, 
+    <a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/11-boundary_value_problems.ipynb">nbviewer</a>, 
     <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F11-boundary_value_problems.ipynb">binder</a>, 
     <a href="https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/11-boundary_value_problems.ipynb" download>ipynb</a>
   </p>
@@ -349,6 +338,8 @@ Alternatively, if you do not have installed Anaconda, you may launch the noteboo
     Final tutorial, refreshing of selected topics
   </p>
 </details>
+
+-->
 
 </section>
 
