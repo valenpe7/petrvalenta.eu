@@ -98,6 +98,17 @@ Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/
 </p>
 </details>
 
+<details class="page__content" itemprop="text">
+<summary>
+<strong>Tutorial 02</strong> - Error analysis (01/03/2021)
+</summary>
+<p markdown="1">
+Floating point representation of numbers, roundoff error, truncation error, numerical stability and condition number. 
+Download the [assignment](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tasks/task_02.ipynb) and submit your soulution in the .ipynb format [here](https://form.jotform.com/210404436620342) (<span style="color:red">deadline: 07/03/2021 23:59 CET</span>).  
+Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/02-error_analysis.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F02-error_analysis.ipynb), [ipynb](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/02-error_analysis.ipynb)
+</p>
+</details>
+
 <!--
 
 <details class="page__content" itemprop="text">
