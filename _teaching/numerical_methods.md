@@ -109,30 +109,18 @@ Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/
 </p>
 </details>
 
-<!--
-
 <details class="page__content" itemprop="text">
-  <summary>
-    <b>Tutorial 02</b> - Error analysis
-  </summary>
-  <p>
-    Floating point representation of numbers, roundoff error, truncation error, numerical stability and condition number. 
-  </p>
-
-  <p> Download the 
-    <a href="https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tasks/task_02.ipynb" download>asignment</a> 
-    and submit your soulution in the .ipynb format 
-    <a href="https://form.jotform.com/210404436620342">here</a> 
-    (deadline: 07/03/2021 23:59 CET).
-  </p>
-
-  <p> Materials from lecture:
-    <a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/02-error_analysis.ipynb">nbviewer</a>, 
-    <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F02-error_analysis.ipynb">binder</a>, 
-    <a href="https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/02-error_analysis.ipynb" download>ipynb</a>
-  </p>
-
+<summary>
+<strong>Tutorial 03</strong> - Linear algebra (08/03/2021)
+</summary>
+<p markdown="1">
+Basic linear algebra operations, direct methods for solving linear equation systems, forward and backward substitution, Gaussian elimination, LU decomposition, Thomas algorithm.  
+Download the [assignment](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tasks/task_03.ipynb) and submit your soulution in the .ipynb format [here](https://form.jotform.com/210405082358348) (<span style="color:red">deadline: 14/03/2021 23:59 CET</span>).  
+Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/03-linear_algebra.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F03-linear_algebra.ipynb), [ipynb](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/03-linear_algebra.ipynb)
+</p>
 </details>
+
+<!--
 
 <details class="page__content" itemprop="text">
   <summary>
