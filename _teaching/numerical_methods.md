@@ -120,30 +120,19 @@ Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/
 </p>
 </details>
 
-<!--
-
 <details class="page__content" itemprop="text">
-  <summary>
-    <b>Tutorial 03</b> - Linear algebra
-  </summary>
-  <p>
-    Basic linear algebra operations, direct methods for solving linear equation systems, forward and backward substitution, Gaussian elimination, LU decomposition, Thomas algorithm. 
-  </p> 
-
-  <p> Download the 
-    <a href="https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tasks/task_03.ipynb" download>asignment</a> 
-    and submit your soulution in the .ipynb format 
-    <a href="https://form.jotform.com/210405082358348">here</a> 
-    (deadline: 14/03/2021 23:59 CET).
-  </p>
-
-  <p> Materials from lecture:
-    <a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/03-linear_algebra.ipynb">nbviewer</a>, 
-    <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F03-linear_algebra.ipynb">binder</a>, 
-    <a href="https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/03-linear_algebra.ipynb" download>ipynb</a>
-  </p>
-
+<summary>
+<strong>Tutorial 03</strong> - Linear algebra - cont'd (15/03/2021)
+</summary>
+<p markdown="1">
+Iterative methods for solving linear equation systems, Jacobi method, Gauss-Seidel method, successive overrelaxation method, power iteration and eigensystems, conjugate gradient method.  
+Download the [assignment](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tasks/task_04.ipynb) and submit your soulution in the .ipynb format [here](https://form.jotform.com/210405178142345) (<span style="color:red">deadline: 21/03/2021 23:59 CET</span>).  
+Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/04-linear_algebra-contd.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F04-linear_algebra_contd.ipynb), [ipynb](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/04-linear_algebra_contd.ipynb)
+</p>
 </details>
+
+
+<!--
 
 <details class="page__content" itemprop="text">
   <summary>
