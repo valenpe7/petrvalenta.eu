@@ -8,7 +8,7 @@ excerpt: "Principles of numerical mathematics important for numerical solving of
 Here you can find auxiliary study materials for undergraduate course <b>12NME1 - Numerical methods</b> lectured at the Faculty of Nuclear Sciences and Physical Engineering, Czech Technical University in Prague.
 
 | **academic year:** | 2020/2021 |
-| **time:** | Monday, 7:30-9:10 |
+| **time:** | Monday, 7:30 - 9:10 |
 | **room:** | T-105 |
 
 **Warning:** Due to the COVID-19 pandemic, the tutorials will be held at the scheduled time remotely using Microsoft Teams ([Team-B202-NME1-Valenta](https://teams.microsoft.com/l/channel/19%3a1004cbffd51143eeb1d526f4066b4d37%40thread.tacv2/General?groupId=1793b8cb-591b-4a71-965e-b01e74a19aae&tenantId=f345c406-5268-43b0-b19f-5862fa6833f8)). If the situation changes, you will be informed.
@@ -89,7 +89,7 @@ Organization of tutorials, installation and setup of required tools
 
 <details class="page__content" itemprop="text">
 <summary>
-<strong>Tutorial 01</strong> - Introduction to Python and Jupyter (22/02/2021)
+<strong>Tutorial 01</strong> - Introduction to Python and Jupyter
 </summary>
 <p markdown="1">
 Basic concepts and features of Python, numeric and math-related functions and data types, Jupyter environment, numpy, scipy, matplotlib modules.  
@@ -100,7 +100,7 @@ Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/
 
 <details class="page__content" itemprop="text">
 <summary>
-<strong>Tutorial 02</strong> - Error analysis (01/03/2021)
+<strong>Tutorial 02</strong> - Error analysis
 </summary>
 <p markdown="1">
 Floating point representation of numbers, roundoff error, truncation error, numerical stability and condition number.   
@@ -111,7 +111,7 @@ Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/
 
 <details class="page__content" itemprop="text">
 <summary>
-<strong>Tutorial 03</strong> - Linear algebra (08/03/2021)
+<strong>Tutorial 03</strong> - Linear algebra
 </summary>
 <p markdown="1">
 Basic linear algebra operations, direct methods for solving linear equation systems, forward and backward substitution, Gaussian elimination, LU decomposition, Thomas algorithm.  
@@ -122,7 +122,7 @@ Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/
 
 <details class="page__content" itemprop="text">
 <summary>
-<strong>Tutorial 04</strong> - Linear algebra - cont'd (15/03/2021)
+<strong>Tutorial 04</strong> - Linear algebra (cont'd)
 </summary>
 <p markdown="1">
 Iterative methods for solving linear equation systems, Jacobi method, Gauss-Seidel method, successive overrelaxation method, power iteration and eigensystems, conjugate gradient method.  
@@ -131,54 +131,19 @@ Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/
 </p>
 </details>
 
+<details class="page__content" itemprop="text">
+<summary>
+<strong>Tutorial 05</strong> - Interpolation
+</summary>
+<p markdown="1">
+Piece-wise linear interpolation, Lagrange interpolation and Neville's algorithm, Chebyshev polynomials and approximation, linear and quadratic least squares interpolation.  
+Download the [assignment](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tasks/task_05.ipynb) and submit your soulution in the .ipynb format [here](https://form.jotform.com/210405129320339) (<span style="color:red">deadline: 28/03/2021 23:59 CET</span>).  
+Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/05-interpolation.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F05-interpolation.ipynb), [ipynb](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/05-interpolation.ipynb)
+</p>
+</details>
+
 
 <!--
-
-<details class="page__content" itemprop="text">
-  <summary>
-    <b>Tutorial 04</b> - Linear algebra - cont'd
-  </summary>
-  <p>
-    Iterative methods for solving linear equation systems, Jacobi method, Gauss-Seidel method, successive overrelaxation method, power iteration and eigensystems, conjugate gradient method.
-  </p>
-
-  <p> Download the 
-    <a href="https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tasks/task_04.ipynb" download>asignment</a> 
-    and submit your soulution in the .ipynb format 
-    <a href="https://form.jotform.com/210405178142345">here</a> 
-    (deadline: 21/03/2021 23:59 CET).
-  </p>
-
-  <p> Materials from lecture:
-    <a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/04-linear_algebra_contd.ipynb">nbviewer</a>, 
-    <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F04-linear_algebra_contd.ipynb">binder</a>, 
-    <a href="https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/04-linear_algebra_contd.ipynb" download>ipynb</a>
-  </p>
-
-</details>
-
-<details class="page__content" itemprop="text">
-  <summary>
-    <b>Tutorial 05</b> - Interpolation
-  </summary>
-  <p>
-    Interpolation and extrapolation, piece-wise linear interpolation, Lagrange interpolation and Neville's algorithm, Newton interpolation, Chebyshev approximation and polynomials, cubic spline, least square approximation.
-  </p>
-
-  <p> Download the 
-    <a href="https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tasks/task_05.ipynb" download>asignment</a> 
-    and submit your soulution in the .ipynb format 
-    <a href="https://form.jotform.com/210405129320339">here</a> 
-    (deadline: 28/03/2021 23:59 CET).
-  </p>
-
-  <p> Materials from lecture:  
-    <a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/05-interpolation.ipynb">nbviewer</a>, 
-    <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F05-interpolation.ipynb">binder</a>, 
-    <a href="https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/05-interpolation.ipynb" download>ipynb</a>
-  </p>
-
-</details>
 
 <details class="page__content" itemprop="text">
   <summary>
