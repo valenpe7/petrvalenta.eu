@@ -5,7 +5,7 @@ excerpt: "Principles of numerical mathematics important for numerical solving of
 
 ---
 
-Here you can find auxiliary study materials for undergraduate course <b>12NME1 - Numerical methods</b> lectured at the Faculty of Nuclear Sciences and Physical Engineering, Czech Technical University in Prague.
+Here you can find auxiliary study materials for undergraduate course <b>12NME1 - Numerical methods</b> lectured at the [Faculty of Nuclear Sciences and Physical Engineering](https://www.fjfi.cvut.cz/cz/), [Czech Technical University in Prague](https://www.cvut.cz/).
 
 | **academic year:** | 2020/2021 |
 | **time:** | Monday, 7:30 - 9:10 |
@@ -80,7 +80,7 @@ Alternatively, if you do not have installed Anaconda, you may launch the noteboo
 
 <details class="page__content" itemprop="text">
 <summary>
-<strong>Tutorial 00</strong> - Introduction to numerical methods (15/02/2021)
+<strong>Tutorial 00</strong> - Introduction to numerical methods
 </summary>
 <p markdown="1">
 Organization of tutorials, installation and setup of required tools
