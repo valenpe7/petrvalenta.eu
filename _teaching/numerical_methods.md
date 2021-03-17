@@ -296,6 +296,8 @@ Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/
 
 </section>
 
+The solutions of all tutorial exercises and assignment task will be available here: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/solutions/solutions.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=solutions%2Fsolutions.ipynb), [ipynb](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/solutions/solutions.ipynb)
+
 The study materials are evolving quickly. Therefore, if you find any mistake, please submit an [issue](https://github.com/valenpe7/numerical_methods/issues) to the GitHub project repository.
 
 ### Recommended literature:
