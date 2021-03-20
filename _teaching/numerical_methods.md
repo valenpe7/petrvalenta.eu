@@ -142,6 +142,16 @@ Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/
 </p>
 </details>
 
+<details class="page__content" itemprop="text">
+<summary>
+<strong>Tutorial 06</strong> - Data sorting
+</summary>
+<p markdown="1">
+Various algorithms for data sorting and their comparison, bubble sort, selection sort, insertion sort, shell sort, quicksort, heap sort, benchmarking.    
+Download the [assignment](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tasks/task_06.ipynb) and submit your soulution in the .ipynb format [here](https://form.jotform.com/) (<span style="color:red">deadline: 11/04/2021 23:59 CET</span>).  
+Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/06-data_sorting.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F06-data_sorting.ipynb), [ipynb](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/06-data_sorting.ipynb)
+</p>
+</details>
 
 <!--
 
