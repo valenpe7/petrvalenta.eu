@@ -148,7 +148,7 @@ Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/
 </summary>
 <p markdown="1">
 Various algorithms for data sorting and their comparison, bubble sort, selection sort, insertion sort, shell sort, quicksort, heap sort, benchmarking.    
-Download the [assignment](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tasks/task_06.ipynb) and submit your soulution in the .ipynb format [here](https://form.jotform.com/) (<span style="color:red">deadline: 11/04/2021 23:59 CET</span>).  
+Download the [assignment](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tasks/task_06.ipynb) and submit your soulution in the .ipynb format [here](https://form.jotform.com/210871511949358) (<span style="color:red">deadline: 11/04/2021 23:59 CET</span>).  
 Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/06-data_sorting.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F06-data_sorting.ipynb), [ipynb](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/06-data_sorting.ipynb)
 </p>
 </details>
@@ -156,150 +156,67 @@ Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/
 <!--
 
 <details class="page__content" itemprop="text">
-  <summary>
-    <b>Tutorial 06</b> - Data sorting 
-  </summary>
-  <p>
-    Various algorithms for data sorting and their comparison, bubble sort, selection sort, insertion sort, shell sort, quicksort, heap sort, benchmarking.
-  </p>
-
-  <p> Download the 
-    <a href="https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tasks/task_06.ipynb" download>asignment</a> 
-    and submit your soulution in the .ipynb format 
-    <a href="https://">here</a> 
-    (deadline: 11/04/2021 23:59 CET).
-  </p>
-
-  <p> Materials from lecture:
-    <a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/06-data_sorting.ipynb">nbviewer</a>, 
-    <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F06-data_sorting.ipynb">binder</a>, 
-    <a href="https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/06-data_sorting.ipynb" download>ipynb</a>
-  </p>
-
+<summary>
+<strong>Tutorial 07</strong> - Nonlinear equations 
+</summary>
+<p markdown="1">
+Root finding and nonlinear set of equations, bisection method, secant method, false position method, Newton-Raphson method.    
+Download the [assignment](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tasks/task_07.ipynb) and submit your soulution in the .ipynb format [here](https://form.jotform.com/210871857045358) (<span style="color:red">deadline: 18/04/2021 23:59 CET</span>).  
+Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/07-nonlinear_equations.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F07-nonlinear_equations.ipynb), [ipynb](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/07-nonlinear_equations.ipynb)
+</p>
 </details>
 
 <details class="page__content" itemprop="text">
-  <summary>
-    <b>Tutorial 07</b> - Nonlinear equations 
-  </summary>
-  <p>
-    Root finding and nonlinear set of equations, bisection method, secant method, false position method, Newton-Raphson method.
-  </p>
-
-  <p> Download the 
-    <a href="https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tasks/task_07.ipynb" download>asignment</a> 
-    and submit your soulution in the .ipynb format 
-    <a href="https://">here</a> 
-    (deadline: 18/04/2021 23:59 CET).
-  </p>
-
-  <p> Materials from lecture:  
-    <a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/07-nonlinear_equations.ipynb">nbviewer</a>, 
-    <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F07-nonlinear_equations.ipynb">binder</a>, 
-    <a href="https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/07-nonlinear_equations.ipynb" download>ipynb</a>
-  </p>
-
+<summary>
+<strong>Tutorial 08</strong> - Optimization
+</summary>
+<p markdown="1">
+Search for extremes of functions, golden section search, parabolic interpolation search, gradient descent.  
+Download the [assignment](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tasks/task_08.ipynb) and submit your soulution in the .ipynb format [here](https://form.jotform.com/210871600907351) (<span style="color:red">deadline: 25/04/2021 23:59 CET</span>).  
+Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/08-optimization.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F08-optimization.ipynb), [ipynb](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/08-optimization.ipynb)
+</p>
 </details>
 
 <details class="page__content" itemprop="text">
-  <summary>
-    <b>Tutorial 08</b> - Numerical optimization
-  </summary>
-  <p>
-    Search for extremes of functions, golden section search, parabolic interpolation search, gradient descent.
-  </p>
-
-  <p> Download the 
-    <a href="https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tasks/task_08.ipynb" download>asignment</a> 
-    and submit your soulution in the .ipynb format 
-    <a href="https://">here</a> 
-    (deadline: 25/04/2021 23:59 CET).
-  </p>
-
-  <p> Materials from lecture:  
-    <a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/08-optimization.ipynb">nbviewer</a>, 
-    <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F08-optimization.ipynb">binder</a>, 
-    <a href="https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/08-optimization.ipynb" download>ipynb</a>
-  </p>
-
+<summary>
+<strong>Tutorial 09</strong> - Quadrature
+</summary>
+<p markdown="1">
+Numerical integration of functions, rectangular rule, trapezoidal rule, Simpson's rule, Romberg's method, Gaussian quadrature, Monte-Carlo integration and random number generators.  
+Download the [assignment](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tasks/task_09.ipynb) and submit your soulution in the .ipynb format [here](https://form.jotform.com/210871794650360) (<span style="color:red">deadline: 02/05/2021 23:59 CET</span>).  
+Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/09-quadrature.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F09-quadrature.ipynb), [ipynb](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/09-quadrature.ipynb)
+</p>
 </details>
 
 <details class="page__content" itemprop="text">
-  <summary>
-    <b>Tutorial 09</b> - Quadrature
-  </summary>
-  <p>
-    Numerical integration of functions, rectangular rule, trapezoidal rule, Simpson's rule, Romberg's method, Gaussian quadrature, Monte-Carlo integration and random number generators.
-  </p>
-
-  <p> Download the 
-    <a href="https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tasks/task_09.ipynb" download>asignment</a> 
-    and submit your soulution in the .ipynb format 
-    <a href="https://">here</a> 
-    (deadline: 02/05/2021 23:59 CET).
-  </p>
-
-  <p> Materials from lecture:  
-    <a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/09-quadrature.ipynb">nbviewer</a>, 
-    <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F09-quadrature.ipynb">binder</a>, 
-    <a href="https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/09-quadrature.ipynb" download>ipynb</a>
-  </p>
-
+<summary>
+<strong>Tutorial 10</strong> - Initial value problems
+</summary>
+<p markdown="1">
+Initial value problems of ordinary differential equations, explicit and implicit Euler's method, Runge-Kutta methods, Leap-Frog, Adams-Bashford, Adams-Moulton, predictor-corrector, Bulirsch-Stoer algorithm, stiff equations.  
+Download the [assignment](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tasks/task_10.ipynb) and submit your soulution in the .ipynb format [here](https://form.jotform.com/210871306050343) (<span style="color:red">deadline: 09/05/2021 23:59 CET</span>).  
+Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/10-initial_value_problems.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F10-initial_value_problems.ipynb), [ipynb](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/10-initial_value_problems.ipynb)
+</p>
 </details>
 
 <details class="page__content" itemprop="text">
-  <summary>
-    <b>Tutorial 10</b> - Initial value problems
-  </summary>
-  <p>
-    Initial value problems of ordinary differential equations, explicit and implicit Euler's method, Runge-Kutta methods, Leap-Frog, Adams-Bashford, Adams-Moulton, predictor-corrector, Bulirsch-Stoer algorithm, stiff equations.
-  </p>
-
-  <p> Download the 
-    <a href="https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tasks/task_10.ipynb" download>asignment</a> 
-    and submit your soulution in the .ipynb format 
-    <a href="https://">here</a> 
-    (deadline: 09/05/2021 23:59 CET).
-  </p>
-
-  <p> Materials from lecture:  
-    <a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/10-initial_value_problems.ipynb">nbviewer</a>, 
-    <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F10-initial_value_problems.ipynb">binder</a>, 
-    <a href="https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/10-initial_value_problems.ipynb" download>ipynb</a>
-  </p>
-
+<summary>
+<strong>Tutorial 11</strong> - Boundary value problems
+</summary>
+<p markdown="1">
+Boundary value problems of ordinary differential equations, finite difference method, shooting method.  
+Download the [assignment](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tasks/task_11.ipynb) and submit your soulution in the .ipynb format [here](https://form.jotform.com/210871480363353) (<span style="color:red">deadline: 16/05/2021 23:59 CET</span>).  
+Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/11-boundary_value_problems.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F11-boundary_value_problems.ipynb), [ipynb](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/11-boundary_value_problems.ipynb)
+</p>
 </details>
 
 <details class="page__content" itemprop="text">
-  <summary>
-    <b>Tutorial 11</b> - Boundary value problems
-  </summary>
-  <p>
-    Boundary value problems of ordinary differential equations, finite difference method, shooting method.
-  </p>
-
-  <p> Download the 
-    <a href="https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tasks/task_11.ipynb" download>asignment</a> 
-    and submit your soulution in the .ipynb format 
-    <a href="https://">here</a> 
-    (deadline: 16/05/2021 23:59 CET).
-  </p>
-
-  <p> Materials from lecture: 
-    <a href="https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/11-boundary_value_problems.ipynb">nbviewer</a>, 
-    <a href="https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F11-boundary_value_problems.ipynb">binder</a>, 
-    <a href="https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/11-boundary_value_problems.ipynb" download>ipynb</a>
-  </p>
-
-</details>
-
-<details class="page__content" itemprop="text">
-  <summary>
-    <b>Tutorial 12</b> - Individual consultations, evaluation of assessment tasks
-  </summary>
-  <p>
-    Final tutorial, refreshing of selected topics
-  </p>
+<summary>
+<strong>Tutorial 12</strong> - Final tutorial Individual consultations, evaluation of assessment tasks, refreshing of selected topics
+</summary>
+<p markdown="1">
+Individual consultations, evaluation of assessment tasks, refreshing of selected topics.
+</p>
 </details>
 
 -->
