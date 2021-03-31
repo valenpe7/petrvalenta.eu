@@ -54,7 +54,7 @@ To install Anaconda,
 
 #### How to obtain the notebooks:
 
-All the notebooks are stored in [this](https://github.com/valenpe7/numerical_methods) GitHub repository under the `lectures` directory. You may either download all the notebooks as a [.zip](https://github.com/valenpe7/numerical_methods/archive/master.zip) archive, or use `git`:
+All the notebooks are stored in [this](https://github.com/valenpe7/numerical_methods) GitHub repository under the `tutorials` directory. You may either download all the notebooks as a [.zip](https://github.com/valenpe7/numerical_methods/archive/master.zip) archive, or use `git`:
 
 1. Clone the repository:  
 ```$> git clone https://github.com/valenpe7/numerical_methods.git```
@@ -67,7 +67,7 @@ After you have installed Anaconda on your computer and obtained the notebooks, y
 ```
 $> jupyter notebook
 ```
-This will print some information about the notebook server in your terminal, including the URL of the web application (by default, `http://localhost:8888`), and open your default web browser to this URL. When Jupyter opens in your browser, you will see the "Notebook Dashboard", which will show a list of the notebooks, files, and subdirectories in the directory where the notebook server was started. Navigate to the `lectures` directory and click on the selected notebook.
+This will print some information about the notebook server in your terminal, including the URL of the web application (by default, `http://localhost:8888`), and open your default web browser to this URL. When Jupyter opens in your browser, you will see the "Notebook Dashboard", which will show a list of the notebooks, files, and subdirectories in the directory where the notebook server was started. Navigate to the `tutorials` directory and click on the selected notebook.
 
 Alternatively, if you do not have installed Anaconda, you may launch the notebooks on-line using
 
@@ -94,7 +94,7 @@ Organization of tutorials, installation and setup of required tools
 <p markdown="1">
 Basic concepts and features of Python, numeric and math-related functions and data types, Jupyter environment, numpy, scipy, matplotlib modules.  
 Download the [assignment](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tasks/task_01.ipynb) and submit your solution in the .ipynb format [here](https://form.jotform.com/210404523662042) (<span style="color:red">deadline: 28/02/2021 23:59 CET</span>).  
-Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/01-introduction.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F01-introduction.ipynb), [ipynb](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/01-introduction.ipynb)
+Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/tutorials/01-introduction.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=tutorials%2F01-introduction.ipynb), [ipynb](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tutorials/01-introduction.ipynb)
 </p>
 </details>
 
@@ -105,7 +105,7 @@ Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/
 <p markdown="1">
 Floating point representation of numbers, roundoff error, truncation error, numerical stability and condition number.   
 Download the [assignment](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tasks/task_02.ipynb) and submit your solution in the .ipynb format [here](https://form.jotform.com/210404436620342) (<span style="color:red">deadline: 07/03/2021 23:59 CET</span>).  
-Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/02-error_analysis.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F02-error_analysis.ipynb), [ipynb](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/02-error_analysis.ipynb)
+Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/tutorials/02-error_analysis.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=tutorials%2F02-error_analysis.ipynb), [ipynb](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tutorials/02-error_analysis.ipynb)
 </p>
 </details>
 
@@ -116,7 +116,7 @@ Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/
 <p markdown="1">
 Basic linear algebra operations, direct methods for solving linear equation systems, forward and backward substitution, Gaussian elimination, LU decomposition, Thomas algorithm.  
 Download the [assignment](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tasks/task_03.ipynb) and submit your solution in the .ipynb format [here](https://form.jotform.com/210405082358348) (<span style="color:red">deadline: 14/03/2021 23:59 CET</span>).  
-Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/03-linear_algebra.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F03-linear_algebra.ipynb), [ipynb](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/03-linear_algebra.ipynb)
+Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/tutorials/03-linear_algebra.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=tutorials%2F03-linear_algebra.ipynb), [ipynb](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tutorials/03-linear_algebra.ipynb)
 </p>
 </details>
 
@@ -127,7 +127,7 @@ Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/
 <p markdown="1">
 Iterative methods for solving linear equation systems, Jacobi method, Gauss-Seidel method, successive overrelaxation method, power iteration and eigensystems, conjugate gradient method.  
 Download the [assignment](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tasks/task_04.ipynb) and submit your solution in the .ipynb format [here](https://form.jotform.com/210405178142345) (<span style="color:red">deadline: 21/03/2021 23:59 CET</span>).  
-Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/04-linear_algebra_contd.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F04-linear_algebra_contd.ipynb), [ipynb](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/04-linear_algebra_contd.ipynb)
+Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/tutorials/04-linear_algebra_contd.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=tutorials%2F04-linear_algebra_contd.ipynb), [ipynb](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tutorials/04-linear_algebra_contd.ipynb)
 </p>
 </details>
 
@@ -138,7 +138,7 @@ Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/
 <p markdown="1">
 Piece-wise linear interpolation, Lagrange interpolation and Neville's algorithm, Chebyshev polynomials and approximation, linear and quadratic least squares interpolation.  
 Download the [assignment](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tasks/task_05.ipynb) and submit your solution in the .ipynb format [here](https://form.jotform.com/210405129320339) (<span style="color:red">deadline: 28/03/2021 23:59 CET</span>).  
-Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/05-interpolation.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F05-interpolation.ipynb), [ipynb](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/05-interpolation.ipynb)
+Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/tutorials/05-interpolation.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=tutorials%2F05-interpolation.ipynb), [ipynb](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tutorials/05-interpolation.ipynb)
 </p>
 </details>
 
@@ -149,7 +149,7 @@ Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/
 <p markdown="1">
 Various algorithms for data sorting and their comparison, bubble sort, selection sort, insertion sort, shell sort, quicksort, heap sort, benchmarking.    
 Download the [assignment](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tasks/task_06.ipynb) and submit your solution in the .ipynb format [here](https://form.jotform.com/210871511949358) (<span style="color:red">deadline: 11/04/2021 23:59 CET</span>).  
-Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/06-data_sorting.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F06-data_sorting.ipynb), [ipynb](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/06-data_sorting.ipynb)
+Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/tutorials/06-data_sorting.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=tutorials%2F06-data_sorting.ipynb), [ipynb](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tutorials/06-data_sorting.ipynb)
 </p>
 </details>
 
