@@ -153,6 +153,17 @@ Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/
 </p>
 </details>
 
+<details class="page__content" itemprop="text">
+<summary>
+<strong>Tutorial 07</strong> - Nonlinear equations 
+</summary>
+<p markdown="1">
+Root finding and nonlinear set of equations, bisection method, secant method, false position method, Newton-Raphson method.    
+Download the [assignment](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tasks/task_07.ipynb) and submit your solution in the .ipynb format [here](https://form.jotform.com/210871857045358) (<span style="color:red">deadline: 18/04/2021 23:59 CET</span>).  
+Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/07-nonlinear_equations.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F07-nonlinear_equations.ipynb), [ipynb](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/07-nonlinear_equations.ipynb)
+</p>
+</details>
+
 <!--
 
 <details class="page__content" itemprop="text">
