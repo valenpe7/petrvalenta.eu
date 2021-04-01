@@ -160,22 +160,11 @@ Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/
 <p markdown="1">
 Root finding and nonlinear set of equations, bisection method, secant method, false position method, Newton-Raphson method.    
 Download the [assignment](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tasks/task_07.ipynb) and submit your solution in the .ipynb format [here](https://form.jotform.com/210871857045358) (<span style="color:red">deadline: 18/04/2021 23:59 CET</span>).  
-Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/07-nonlinear_equations.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F07-nonlinear_equations.ipynb), [ipynb](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/07-nonlinear_equations.ipynb)
+Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/tutorials/07-nonlinear_equations.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=tutorials%2F07-nonlinear_equations.ipynb), [ipynb](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tutorials/07-nonlinear_equations.ipynb)
 </p>
 </details>
 
 <!--
-
-<details class="page__content" itemprop="text">
-<summary>
-<strong>Tutorial 07</strong> - Nonlinear equations 
-</summary>
-<p markdown="1">
-Root finding and nonlinear set of equations, bisection method, secant method, false position method, Newton-Raphson method.    
-Download the [assignment](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tasks/task_07.ipynb) and submit your solution in the .ipynb format [here](https://form.jotform.com/210871857045358) (<span style="color:red">deadline: 18/04/2021 23:59 CET</span>).  
-Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/07-nonlinear_equations.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F07-nonlinear_equations.ipynb), [ipynb](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/07-nonlinear_equations.ipynb)
-</p>
-</details>
 
 <details class="page__content" itemprop="text">
 <summary>
@@ -184,7 +173,7 @@ Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/
 <p markdown="1">
 Search for extremes of functions, golden section search, parabolic interpolation search, gradient descent.  
 Download the [assignment](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tasks/task_08.ipynb) and submit your solution in the .ipynb format [here](https://form.jotform.com/210871600907351) (<span style="color:red">deadline: 25/04/2021 23:59 CET</span>).  
-Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/08-optimization.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F08-optimization.ipynb), [ipynb](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/08-optimization.ipynb)
+Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/tutorials/08-optimization.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=tutorials%2F08-optimization.ipynb), [ipynb](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tutorials/08-optimization.ipynb)
 </p>
 </details>
 
@@ -195,7 +184,7 @@ Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/
 <p markdown="1">
 Numerical integration of functions, rectangular rule, trapezoidal rule, Simpson's rule, Romberg's method, Gaussian quadrature, Monte-Carlo integration and random number generators.  
 Download the [assignment](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tasks/task_09.ipynb) and submit your solution in the .ipynb format [here](https://form.jotform.com/210871794650360) (<span style="color:red">deadline: 02/05/2021 23:59 CET</span>).  
-Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/09-quadrature.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F09-quadrature.ipynb), [ipynb](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/09-quadrature.ipynb)
+Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/tutorials/09-quadrature.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=tutorials%2F09-quadrature.ipynb), [ipynb](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tutorials/09-quadrature.ipynb)
 </p>
 </details>
 
@@ -206,7 +195,7 @@ Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/
 <p markdown="1">
 Initial value problems of ordinary differential equations, explicit and implicit Euler's method, Runge-Kutta methods, Leap-Frog, Adams-Bashford, Adams-Moulton, predictor-corrector, Bulirsch-Stoer algorithm, stiff equations.  
 Download the [assignment](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tasks/task_10.ipynb) and submit your solution in the .ipynb format [here](https://form.jotform.com/210871306050343) (<span style="color:red">deadline: 09/05/2021 23:59 CET</span>).  
-Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/10-initial_value_problems.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F10-initial_value_problems.ipynb), [ipynb](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/10-initial_value_problems.ipynb)
+Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/tutorials/10-initial_value_problems.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=tutorials%2F10-initial_value_problems.ipynb), [ipynb](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tutorials/10-initial_value_problems.ipynb)
 </p>
 </details>
 
@@ -217,7 +206,7 @@ Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/
 <p markdown="1">
 Boundary value problems of ordinary differential equations, finite difference method, shooting method.  
 Download the [assignment](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tasks/task_11.ipynb) and submit your solution in the .ipynb format [here](https://form.jotform.com/210871480363353) (<span style="color:red">deadline: 16/05/2021 23:59 CET</span>).  
-Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/lectures/11-boundary_value_problems.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=lectures%2F11-boundary_value_problems.ipynb), [ipynb](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/lectures/11-boundary_value_problems.ipynb)
+Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/tutorials/11-boundary_value_problems.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=tutorials%2F11-boundary_value_problems.ipynb), [ipynb](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tutorials/11-boundary_value_problems.ipynb)
 </p>
 </details>
 
