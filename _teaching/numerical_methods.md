@@ -164,6 +164,17 @@ Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/
 </p>
 </details>
 
+<details class="page__content" itemprop="text">
+<summary>
+<strong>Tutorial 08</strong> - Optimization
+</summary>
+<p markdown="1">
+Search for extremes of functions, golden section search, parabolic interpolation search, gradient descent.      
+Download the [assignment](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tasks/task_08.ipynb) and submit your solution in the .ipynb format [here](https://form.jotform.com/210871600907351) (<span style="color:red">deadline: 25/04/2021 23:59 CET</span>).  
+Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/tutorials/08-optimization.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=tutorials%2F08-optimization.ipynb), [ipynb](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tutorials/08-optimization.ipynb)
+</p>
+</details>
+
 <!--
 
 <details class="page__content" itemprop="text">
@@ -223,7 +234,7 @@ Individual consultations, evaluation of assessment tasks, refreshing of selected
 
 </section>
 
-The solutions of all tutorial exercises and assignment tasks will be available [here](https://valenpe7.github.io/numerical_methods/tutorials/solutions.html) and [here](https://valenpe7.github.io/numerical_methods/tasks/solutions.html).
+The solutions to all the tutorial exercises and assignment tasks will be available [here](https://valenpe7.github.io/numerical_methods/tutorials/solutions.html) and [here](https://valenpe7.github.io/numerical_methods/tasks/solutions.html).
 
 The study materials are evolving quickly. Therefore, if you find any mistake, please submit an [issue](https://github.com/valenpe7/numerical_methods/issues) to the GitHub project repository.
 
