@@ -175,19 +175,6 @@ Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/
 </p>
 </details>
 
-<!--
-
-<details class="page__content" itemprop="text">
-<summary>
-<strong>Tutorial 08</strong> - Optimization
-</summary>
-<p markdown="1">
-Search for extremes of functions, golden section search, parabolic interpolation search, gradient descent.  
-Download the [assignment](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tasks/task_08.ipynb) and submit your solution in the .ipynb format [here](https://form.jotform.com/210871600907351) (<span style="color:red">deadline: 25/04/2021 23:59 CET</span>).  
-Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/tutorials/08-optimization.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=tutorials%2F08-optimization.ipynb), [ipynb](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tutorials/08-optimization.ipynb)
-</p>
-</details>
-
 <details class="page__content" itemprop="text">
 <summary>
 <strong>Tutorial 09</strong> - Quadrature
@@ -198,6 +185,8 @@ Download the [assignment](https://raw.githubusercontent.com/valenpe7/numerical_m
 Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/tutorials/09-quadrature.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=tutorials%2F09-quadrature.ipynb), [ipynb](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tutorials/09-quadrature.ipynb)
 </p>
 </details>
+
+<!--
 
 <details class="page__content" itemprop="text">
 <summary>
