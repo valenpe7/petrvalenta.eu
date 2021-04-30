@@ -186,18 +186,18 @@ Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/
 </p>
 </details>
 
-<!--
-
 <details class="page__content" itemprop="text">
 <summary>
 <strong>Tutorial 10</strong> - Initial value problems
 </summary>
 <p markdown="1">
-Initial value problems of ordinary differential equations, explicit and implicit Euler's method, Runge-Kutta methods, Leap-Frog, Adams-Bashford, Adams-Moulton, predictor-corrector, Bulirsch-Stoer algorithm, stiff equations.  
+Initial value problems of ordinary differential equations, explicit and implicit Euler method, Runge-Kutta methods, Leap-frog, Adams-Bashford, Adams-Moulton, predictor-corrector, Bulirsch-Stoer algorithm, stiff equations.  
 Download the [assignment](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tasks/task_10.ipynb) and submit your solution in the .ipynb format [here](https://form.jotform.com/210871306050343) (<span style="color:red">deadline: 09/05/2021 23:59 CET</span>).  
 Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/tutorials/10-initial_value_problems.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=tutorials%2F10-initial_value_problems.ipynb), [ipynb](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tutorials/10-initial_value_problems.ipynb)
 </p>
 </details>
+
+<!--
 
 <details class="page__content" itemprop="text">
 <summary>
