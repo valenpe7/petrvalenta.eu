@@ -197,18 +197,18 @@ Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/
 </p>
 </details>
 
-<!--
-
 <details class="page__content" itemprop="text">
 <summary>
 <strong>Tutorial 11</strong> - Boundary value problems
 </summary>
 <p markdown="1">
-Boundary value problems of ordinary differential equations, finite difference method, shooting method.  
+Boundary value problems of ordinary differential equations, finite difference method, shooting method, finite element method.  
 Download the [assignment](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tasks/task_11.ipynb) and submit your solution in the .ipynb format [here](https://form.jotform.com/210871480363353) (<span style="color:red">deadline: 16/05/2021 23:59 CET</span>).  
 Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/numerical_methods/blob/master/tutorials/11-boundary_value_problems.ipynb), [binder](https://mybinder.org/v2/gh/valenpe7/numerical_methods/HEAD?filepath=tutorials%2F11-boundary_value_problems.ipynb), [ipynb](https://raw.githubusercontent.com/valenpe7/numerical_methods/master/tutorials/11-boundary_value_problems.ipynb)
 </p>
 </details>
+
+<!--
 
 <details class="page__content" itemprop="text">
 <summary>
