@@ -208,8 +208,6 @@ Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/
 </p>
 </details>
 
-<!--
-
 <details class="page__content" itemprop="text">
 <summary>
 <strong>Tutorial 12</strong> - Final tutorial Individual consultations, evaluation of assessment tasks, refreshing of selected topics
@@ -218,8 +216,6 @@ Materials from lecture: [nbviewer](https://nbviewer.jupyter.org/github/valenpe7/
 Individual consultations, evaluation of assessment tasks, refreshing of selected topics.
 </p>
 </details>
-
--->
 
 </section>
 
