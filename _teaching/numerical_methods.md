@@ -14,7 +14,7 @@ Here you can find auxiliary study materials for undergraduate course <b>12NME1 -
 **Warning:** Due to the COVID-19 pandemic, the tutorials will be held at the scheduled time remotely using Microsoft Teams ([Team-B202-NME1-Valenta](https://teams.microsoft.com/l/channel/19%3a1004cbffd51143eeb1d526f4066b4d37%40thread.tacv2/General?groupId=1793b8cb-591b-4a71-965e-b01e74a19aae&tenantId=f345c406-5268-43b0-b19f-5862fa6833f8)). If the situation changes, you will be informed.
 {: .notice--warning}
 
-### Requirements:
+### Requirements
 
 in order to obtain the assessment, there are several formal requirements: 
 
@@ -34,7 +34,7 @@ Those who attended the tutorials previous year and did not defend the assessment
 **Warning:** Since it is not possible to properly check the attendance in the remote mode, the requirements above are no longer valid. Instead, you will be given a short task at the end of each tutorial. To obtain the assessment, it is neccessary to solve correctly and submit on time at least 6 out of 11 tasks throughout the semester. Please consult the [evaluation](https://teams.microsoft.com/l/file/ED4AE881-3282-490E-A280-63094336D17D?tenantId=f345c406-5268-43b0-b19f-5862fa6833f8&fileType=xlsx&objectUrl=https%3A%2F%2Fcampuscvut.sharepoint.com%2Fsites%2FTeam-B202-12NME1-Valenta%2FSdilene%20dokumenty%2FGeneral%2Fattendance_list.xlsx&baseUrl=https%3A%2F%2Fcampuscvut.sharepoint.com%2Fsites%2FTeam-B202-12NME1-Valenta&serviceName=teams&threadId=19:1004cbffd51143eeb1d526f4066b4d37@thread.tacv2&groupId=1793b8cb-591b-4a71-965e-b01e74a19aae) list regularly and inform me in case of any error.
 {: .notice--warning}
 
-### About the study materials:
+### About the study materials
 
 The study materials currently consist of only the implementation of selected numerical methods and algorithms (without comments). For closer info, you should attend the tutorials. The methods are written in [Python 3](https://www.python.org/), and organized into a collection of [Jupyter](https://www.jupyter.org) notebooks. In addition, they rely on several Python packages:
 - [numpy](https://numpy.org/) (mainly for data structures)
@@ -74,7 +74,7 @@ Alternatively, if you do not have installed Anaconda, you may launch the noteboo
 * [NBViewer](https://nbviewer.jupyter.org) (non-interactive)
 * [Binder](https://mybinder.org) (interactive)
 
-### Tutorials:
+### Tutorials
 
 <section class="page__content" itemprop="text"> 
 
@@ -223,7 +223,7 @@ The solutions to all the tutorial exercises and assignment tasks will be availab
 
 The study materials are evolving quickly. Therefore, if you find any mistake, please submit an [issue](https://github.com/valenpe7/numerical_methods/issues) to the GitHub project repository.
 
-### Recommended literature:
+### Recommended literature
 
 [1] W. H. Press, B. P. Flannery, S. A. Teukolsky, V. H. Vetterling, *Numerical Recipes: The art of scientific computing*, Cambridge University Press, Cambridge, 3rd edition 2007.
 
@@ -231,7 +231,7 @@ The study materials are evolving quickly. Therefore, if you find any mistake, pl
 
 [3] R. W. Hamming, *Numerical Methods for Scientists and Engineers*, 2nd edition, Dover Publications 1986.
 
-### Useful links:
+### Useful links
 
 - [Main webpage of the course](http://kfe.fjfi.cvut.cz/~vachal/edu/nme/)
 - [Guidelines to lectures and seminars](http://kfe.fjfi.cvut.cz/~limpouch/numet/NMECvic.pdf)
