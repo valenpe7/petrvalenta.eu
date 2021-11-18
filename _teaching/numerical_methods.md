@@ -16,7 +16,7 @@ Here you can find auxiliary study materials for undergraduate course <b>12NME1 -
 
 ### Requirements
 
-in order to obtain the assessment, there are several formal requirements: 
+In order to obtain the assessment, there are several formal requirements: 
 
 #### Attendace at tutorials:
 - ~~maximum of 3 unjustified absences are allowed throughout the semester~~
@@ -73,6 +73,9 @@ Alternatively, if you do not have installed Anaconda, you may launch the noteboo
 
 * [NBViewer](https://nbviewer.jupyter.org) (non-interactive)
 * [Binder](https://mybinder.org) (interactive)
+
+**Note:** All the notebooks and assessment tasks with solutions have been now compiled into a single workbook. You can find it [here](https://valenpe7.github.io/numerical_methods).
+{: .notice--info}
 
 ### Tutorials
 
@@ -218,8 +221,6 @@ Individual consultations, evaluation of assessment tasks, refreshing of selected
 </details>
 
 </section>
-
-The solutions to all the tutorial exercises and assignment tasks will be available [here](https://valenpe7.github.io/numerical_methods/tutorials/solutions.html) and [here](https://valenpe7.github.io/numerical_methods/tasks/solutions.html).
 
 The study materials are evolving quickly. Therefore, if you find any mistake, please submit an [issue](https://github.com/valenpe7/numerical_methods/issues) to the GitHub project repository.
 
