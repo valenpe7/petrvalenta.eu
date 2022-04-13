@@ -5,7 +5,7 @@ excerpt: "A team of researchers from ELI Beamlines (Czech Rep.) use analytical m
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/2022-31-01/img_01.jpg
+  teaser: /assets/images/2022-01-31/img_01.jpg
 tags: 
   - science
   - physics
@@ -21,8 +21,8 @@ This research has been initiated after an experimental observation of stable and
 In general, this work investigates (analytically and using numerical simulations) the propagation of high-power short-pulse [laser](https://en.wikipedia.org/wiki/Laser) in a low-density [plasma](https://en.wikipedia.org/wiki/Plasma_(physics)), which is a topic relevant to a number of scientific challenges, such as laser-driven [acceleration](https://en.wikipedia.org/wiki/Plasma_acceleration) of charged particles, development of sources of hard [electromagnetic radiation](https://en.wikipedia.org/wiki/Electromagnetic_radiation), and [nuclear fusion](https://en.wikipedia.org/wiki/Nuclear_fusion) within the framework of the [fast ignition](https://en.wikipedia.org/wiki/Inertial_confinement_fusion#Fast_ignition_2) concept. For most of these applications, it is essential that the laser pulse propagates over extended distances and transmits its energy into the plasma in controlled way without incurring excessive losses. In this context, much of the attention has been focused on the evolution of the radial profile of the laser beam in a fully ionized plasma; it turned out that the process of [self-focusing](https://en.wikipedia.org/wiki/Self-focusing) for high-power laser pulses may lead to the formation of the [multifilament](https://en.wikipedia.org/wiki/Self-focusing#Filamentation) and, in particular, ring-shaped transverse structures (see, e.g., Refs. 17–25 in the [manuscript](https://doi.org/10.1063/5.0065167)). We show that these electromagnetic rings can become a source of high-energy ring-shaped electron beams. 
 
 <figure id="figure_1" style="max-width: 500px" class="align-center">
-  <a href="/assets/images/2022-31-01/img_01.jpg" class="image-popup">
-    <img src="/assets/images/2022-31-01/img_01.jpg" alt="Electromagnetic-electron rings">
+  <a href="/assets/images/2022-01-31/img_01.jpg" class="image-popup">
+    <img src="/assets/images/2022-01-31/img_01.jpg" alt="Electromagnetic-electron rings">
   </a>
   <figcaption>
   <strong>Fig. 1:</strong> Visualization of the driver field intensity (reds) and the electron number density (grays) during the laser-plasma interaction obtained from the 3D computer simulation. Taken from [[1](#ref_1)].
@@ -37,8 +37,8 @@ The main results of the [paper](https://doi.org/10.1063/5.0065167) can be summar
 
 **Note:** Our paper has been promoted by the editors of Physics of Plasmas journal by selecting the article as “Featured” and additionally reported by Scilight [[1](#ref_1)], which showcases the most interesting research across the physical sciences published in AIP Publishing journals. Furthermore, one of the figures from the paper was selected as the cover image of the journal’s December issue (see below).
 <figure id="figure_2" style="max-width: 500px" class="align-center">
-  <a href="/assets/images/2022-31-01/img_02.jpg" class="image-popup">
-    <img src="/assets/images/2022-31-01/img_02.jpg" alt="Cover of Physics of Plasmas">
+  <a href="/assets/images/2022-01-31/img_02.jpg" class="image-popup">
+    <img src="/assets/images/2022-01-31/img_02.jpg" alt="Cover of Physics of Plasmas">
   </a>
   <figcaption>
   <strong>Fig. 2:</strong> Our paper has been featured on the [cover](https://aip.scitation.org/action/showLargeCover?doi=10.1063%2Fphp.2021.28.issue-12) of Physics Plasmas.
