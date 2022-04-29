@@ -83,4 +83,4 @@ P. Valenta, G. M. Grittani, C. M. Lazzarini, O. Klimo, and S. V. Bulanov, “On 
 
 ### References
 
-[<a id="ref_1">1</a>] C. Patrick, “Marrying ring-shaped structures from laser plasma interactions to their formation mechanism”, *Scilight* **50**, 501102 (2021).
+[<a id="ref_1">1</a>] C. Patrick, [“Marrying ring-shaped structures from laser plasma interactions to their formation mechanism”](https://aip.scitation.org/doi/10.1063/10.0008952), *Scilight* **50**, 501102 (2021).
