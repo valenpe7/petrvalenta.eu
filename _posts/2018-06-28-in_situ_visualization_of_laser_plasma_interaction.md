@@ -51,6 +51,9 @@ The Cartesian grid contains three field quantities – the [electric field](http
 
 The last method is used at the end of the simulation to release all the *Catalyst* resources. All three methods are then incorporated to the main code using [preprocessor directives](https://en.wikipedia.org/wiki/Directive_(programming)).
 
+**Tip:** The source code of the implemented *EPOCH* adaptor to *Catalyst* as well as sample visualization pipelines can be found in [this](https://github.com/valenpe7/epoch_catalyst_adaptor) GitHub repository.
+{: .notice--success}
+
 ### Performance analysis
 
 The *EPOCH* code instrumented with *Catalyst* benefits from various new capabilities. It can produce a wide range of outputs (see <a href="#fig_1">Fig. 1</a>):
