@@ -8,6 +8,7 @@ header:
   teaser: /assets/images/2018-06-28/img_02.jpg
 tags: 
   - science
+  - physics
   - visualization
   - ParaView Catalyst
 

@@ -9,8 +9,13 @@ header:
 tags: 
   - science
   - physics
+  - visualization
+  - virtual reality
 
 ---
+
+**Note:** This is a press-release of the paper by [P. Valenta et al., Phys. Plasmas 28, 122104 (2021)](https://doi.org/10.1063/5.0065167) which I co-authored.
+{: .notice--info}
 
 A team of researchers from [ELI Beamlines](https://www.eli-beams.eu) (Czech Rep.) use analytical modeling and 3D computer simulations to investigate the evolution of radial profile of high-power laser pulse in a low-density plasma, which is relevant to the laser-driven acceleration of charged particles, developing hard electromagnetic radiation, and other applications. According to their recent [publication](https://doi.org/10.1063/5.0065167) in [Physics of Plasmas](https://aip.scitation.org/journal/php), they reveal the mechanisms of coupled electromagnetic and electron rings formation during the interaction and describe how these structures can be controlled.
 
