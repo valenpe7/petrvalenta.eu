@@ -36,7 +36,7 @@ The authors show that the novel phenomenon of the wakefield polarity reversal (s
   </figcaption>
 </figure> 
 
-**Tip:** Following the principles of reproducible science, the raw data used for our research has been uploaded to [Zenodo](https://zenodo.org/record/4298843#.YAIlVeieGUl) and the data analysis can be found on [GitHub](https://github.com/valenpe7/wakefield_polarity_reversal).
+**Tip:** Following the principles of reproducible science, the raw data used for our research has been uploaded to [Zenodo](https://zenodo.org/record/4298843#.YAIlVeieGUl) and the data analysis can be found on [GitHub](https://github.com/valenpe7/PhysRevE.102.053216).
 {: .notice--success}
 
 ### How to cite 
