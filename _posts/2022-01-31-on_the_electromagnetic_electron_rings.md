@@ -56,13 +56,13 @@ The main results of the [paper](https://doi.org/10.1063/5.0065167) can be summar
 
 The understanding of the physical processes that lead to the generation of the electromagnetic and electron ring structures is important due to the following reasons: (i) the electromagnetic rings may carry off a significant fraction of energy from the driver, and thus limit the overall efficiency of applications based on the laser-plasma interaction; (ii) the electron beams accelerated in the wake of the electromagnetic rings may cause a damage to surrounding equipment (e.g., capillaries used for the laser pulse guiding) and become a source of unwanted electromagnetic radiation; and (iii) the knowledge of the origin of the electromagnetic and electron rings could serve as a diagnostics for determining the regimes of laser-plasma interaction.
 
-**Tip:** The simulation data are visualized using ELI [Virtual Beamline](https://www.eli-beams.eu/facility/computing-simulations/virtual-beamline/) – a complex interactive 3D web application that allows to explore the data with a virtual reality headset. The application can be accessed [here](https://valenpe7.github.io/on_the_electromagnetic-electron_rings/). Note that the size of the data used for visualization is approx. 10 GB, so it takes some time to load them and also requires corresponding amount of free RAM on your machine. If you are unable to meet these requirements, you may still see the visualization in the video below. 
+**Tip:** The simulation data are visualized using ELI [Virtual Beamline](https://www.eli-beams.eu/facility/computing-simulations/virtual-beamline/) – a complex interactive 3D web application that allows to explore the data with a virtual reality headset. The application can be accessed [here](https://valenpe7.github.io/5.0065167/). Note that the size of the data used for visualization is approx. 10 GB, so it takes some time to load them and also requires corresponding amount of free RAM on your machine. If you are unable to meet these requirements, you may still see the visualization in the video below. 
 {: .notice--success}
 
 {% include video id="699063737" provider="vimeo" %}
 
 
-**Tip:** Following the principles of reproducible science, the raw data used for our research has been uploaded to [Zenodo](https://doi.org/10.5281/zenodo.5711100) and the data analysis can be found on [GitHub](https://github.com/valenpe7/on_the_electromagnetic-electron_rings).
+**Tip:** Following the principles of reproducible science, the raw data used for our research has been uploaded to [Zenodo](https://doi.org/10.5281/zenodo.5711100) and the data analysis can be found on [GitHub](https://github.com/valenpe7/5.0065167).
 {: .notice--success}
 
 ### How to cite 
