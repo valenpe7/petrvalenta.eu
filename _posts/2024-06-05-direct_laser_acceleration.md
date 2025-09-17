@@ -1,6 +1,6 @@
 ---
 
-title: Direct laser acceleration: A model for the electron injection from the walls of a cylindrical guiding structure
+title: Direct laser acceleration - a model for the electron injection from the walls of a cylindrical guiding structure
 excerpt: "In a new study published in Physical Review E, researchers from the ELI Beamlines Facility and the Instituto Superior Técnico investigated the origin of electrons accelerated by the process of direct laser acceleration when driven by petawatt-class lasers in preformed plasma channels. Using advanced simulations and a hydrodynamic analytical model, they revealed that most accelerated electrons originate at the interface between the plasma channel wall and its interior. The model further describes the release of electrons when the channel wall is struck by an intense laser, their subsequent dynamics, and the evolution of the plasma channel density profile. These insights allow quantitative predictions of the total charge of released electrons and the average density inside the channel after the laser pulse passes."
 toc: true
 toc_sticky: true
@@ -35,7 +35,7 @@ This collaborative research demonstrates how plasma channel walls act as reservo
     <img src="/assets/images/2024-06-05/img_01.jpg" alt="Direct laser acceleration">
   </a>
   <figcaption>
-  <strong>Fig. 1:</strong> Setup of the PIC simulation: The laser pulse (orange) propagates in preformed plasma channel (gray). Taken from <a href="#ref_1">[1]</a>.
+  <strong>Fig. 1:</strong> The setup of simulation revealing how plasma channels release and guide electrons when struck by a powerful lase. The laser pulse (orange) propagates in preformed plasma channel (gray). Taken from <a href="#ref_1">[1]</a>.
   </figcaption>
 </figure> 
 
