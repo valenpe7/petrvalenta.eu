@@ -14,13 +14,13 @@ tags:
 
 ---
 
-**Note:** This is a press-release of the paper by [P. Valenta et al., Phys. Rev. E 109, 065204 (2024)](https://doi.org/10.1103/PhysRevE.109.065204) which I co-authored.
+**Note:** This is a press-release of the paper [P. Valenta et al., Phys. Rev. E 109, 065204 (2024)](https://doi.org/10.1103/PhysRevE.109.065204) which I co-authored.
 {: .notice--info}
 
 **Tip:** You may find a pre-print of this paper on [arXiv](https://arxiv.org/abs/2402.14561).
 {: .notice--success}
 
-In a new study published in [Physical Review E](https://doi.org/10.1103/PhysRevE.109.065204), researchers from the [ELI Beamlines Facility](https://www.eli-beams.eu/) and the [Instituto Superior Técnico](https://tecnico.ulisboa.pt/en/) investigated the origin of electrons accelerated by the process of direct laser acceleration when driven by petawatt-class lasers in preformed plasma channels. Using advanced simulations and a hydrodynamic analytical model, they revealed that most accelerated electrons originate at the interface between the plasma channel wall and its interior. The model further describes the release of electrons when the channel wall is struck by an intense laser, their subsequent dynamics, and the evolution of the plasma channel density profile. These insights allow quantitative predictions of the total charge of released electrons and the average density inside the channel after the laser pulse passes.
+In a new study published in [Physical Review E](https://doi.org/10.1103/PhysRevE.109.065204), researchers from the [ELI Beamlines Facility](https://www.eli-beams.eu/) (Czech Rep.) and the [Instituto Superior Técnico](https://tecnico.ulisboa.pt/en/) (Portugal) investigated the origin of electrons accelerated by the process of direct laser acceleration when driven by petawatt-class lasers in preformed plasma channels. Using advanced simulations and a hydrodynamic analytical model, they revealed that most accelerated electrons originate at the interface between the plasma channel wall and its interior. The model further describes the release of electrons when the channel wall is struck by an intense laser, their subsequent dynamics, and the evolution of the plasma channel density profile. These insights allow quantitative predictions of the total charge of released electrons and the average density inside the channel after the laser pulse passes.
 
 ### What is our work about
 
