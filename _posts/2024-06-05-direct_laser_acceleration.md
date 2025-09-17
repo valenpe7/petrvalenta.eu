@@ -14,7 +14,7 @@ tags:
 
 ---
 
-**Note:** This is a press-release of the paper [P. Valenta et al., Phys. Rev. E 109, 065204 (2024)](https://doi.org/10.1103/PhysRevE.109.065204).
+**Note:** This is a press release of the paper [P. Valenta et al., *Phys. Rev. E* **109**, 065204 (2024)](https://doi.org/10.1103/PhysRevE.109.065204).
 {: .notice--info}
 
 **Tip:** You may find a pre-print of this paper on [arXiv](https://arxiv.org/abs/2402.14561).
@@ -22,11 +22,11 @@ tags:
 
 In a new study published in [Physical Review E](https://doi.org/10.1103/PhysRevE.109.065204), researchers from the [ELI Beamlines Facility](https://www.eli-beams.eu/) (Czech Rep.) and the [Instituto Superior Técnico](https://tecnico.ulisboa.pt/en/) (Portugal) investigated the origin of electrons accelerated by the process of direct laser acceleration when driven by petawatt-class lasers in preformed plasma channels. Using advanced simulations and a hydrodynamic analytical model, they revealed that most accelerated electrons originate at the interface between the plasma channel wall and its interior. The model further describes the release of electrons when the channel wall is struck by an intense laser, their subsequent dynamics, and the evolution of the plasma channel density profile. These insights allow quantitative predictions of the total charge of released electrons and the average density inside the channel after the laser pulse passes.
 
-### What is our work about
+### What the work is about
 
 Laser-driven plasma-based electron accelerators are emerging as a revolutionary technology, promising to deliver powerful particle beams at a fraction of the size and cost of traditional [radio-frequency machines](https://en.wikipedia.org/wiki/Particle_accelerator). While laser-wakefield acceleration (LWFA) has already been widely explored, another mechanism — known as direct laser acceleration (DLA) — offers unique advantages, particularly in generating high-charge electron beams.
 
-### What are our central findings
+### What the central findings are
 
 This collaborative research demonstrates how plasma channel walls act as reservoirs of electrons for DLA, offering new opportunities to optimize injection and acceleration processes. By bridging simulations with analytical theory, the study provides a quantitative framework to predict electron injection and density, guiding the design of next-generation laser–plasma facilities.
 
@@ -39,11 +39,11 @@ This collaborative research demonstrates how plasma channel walls act as reservo
   </figcaption>
 </figure> 
 
-### Why is our work important
+### Why this work is important
 
-Although DLA typically produces electron beams of lower energy and quality compared to LWFA, it offers a striking advantage: the accelerated beams carry several orders of magnitude more charge. In this study, electrons reached energies above 1 gigaelectronvolt with beam charges exceeding 100 nanocoulombs. Such high-charge beams are crucial for diverse applications, including the production of intense [gamma-ray](https://en.wikipedia.org/wiki/Gamma_ray) and [neutron](https://en.wikipedia.org/wiki/Neutron) sources, excitation of [nuclear isomers](https://en.wikipedia.org/wiki/Nuclear_isomer), seeding of [quantum electrodynamics](https://en.wikipedia.org/wiki/Quantum_electrodynamics) cascades, and the guiding of [positrons](https://en.wikipedia.org/wiki/Positron).
+Although DLA typically produces electron beams of lower energy and quality compared to LWFA, it offers a striking advantage: the accelerated beams carry several orders of magnitude more charge. In this study, electrons reached energies above 1 giga-electronvolt with beam charges exceeding 100 nanocoulombs. Such high-charge beams are crucial for diverse applications, including the production of intense [gamma-ray](https://en.wikipedia.org/wiki/Gamma_ray) and [neutron](https://en.wikipedia.org/wiki/Neutron) sources, excitation of [nuclear isomers](https://en.wikipedia.org/wiki/Nuclear_isomer), seeding of [quantum electrodynamics](https://en.wikipedia.org/wiki/Quantum_electrodynamics) cascades, and the guiding of [positrons](https://en.wikipedia.org/wiki/Positron).
 
-Beyond fundamental science, this research strengthens the case for DLA as a complementary mechanism to LWFA, particularly for applications that require high-charge beams. From producing powerful radiation sources to enabling future particle–antiparticle studies, DLA-based accelerators are positioned to drive innovation in physics, materials science, and nuclear research.
+Beyond fundamental science, this research strengthens the case for DLA as a complementary mechanism to LWFA, particularly for applications that require high-charge beams. From producing powerful radiation sources to enabling future particle–antiparticle studies, DLA-based accelerators are positioned to drive innovation in physics, [materials science](https://en.wikipedia.org/wiki/Materials_science), and [nuclear physics](https://en.wikipedia.org/wiki/Nuclear_physics) research.
 
 **Tip:** Following the principles of reproducible science, the raw data used for this research are openly available on [Zenodo](https://doi.org/10.5281/zenodo.17132062) and the data analysis can be accessed on [GitHub](https://github.com/valenpe7/PhysRevE.109.065204).
 {: .notice--success}
