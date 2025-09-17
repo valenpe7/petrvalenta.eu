@@ -14,7 +14,7 @@ tags:
 
 ---
 
-**Note:** This is a press-release of the paper [P. Valenta et al., Phys. Rev. Accel. Beams 28, 094601 (2025)](https://doi.org/10.1103/knh7-hbr3) which I co-authored.
+**Note:** This is a press-release of the paper [P. Valenta et al., Phys. Rev. Accel. Beams 28, 094601 (2025)](https://doi.org/10.1103/knh7-hbr3).
 {: .notice--info}
 
 **Tip:** You may find a pre-print of this paper on [arXiv](https://arxiv.org/abs/2501.06069).
@@ -28,7 +28,7 @@ The study focuses on laser wakefield acceleration (LWFA), a cutting-edge method 
 
 ### What the central findings are
 
-By combining Bayesian optimization with high-resolution three-dimensional simulations, the researchers identified the best conditions for maximizing the cut-off energy of accelerated electrons. They examined both self-guided lasers in uniform plasma and guided lasers in preformed plasma channels. Their results show that with just 10 millijoules of laser energy, self-guided setups produced electron beams with cut-off energies of around 68 mega-electronvolts. When plasma channels were used, the energy increased to more than 90 mega-electronvolts. Importantly, analytical models derived in the study confirmed the simulation outcomes and provided scaling laws that can be used to predict performance at higher laser energies. These findings suggest that carefully tuned plasma channels can significantly enhance the acceleration process while maintaining compact system sizes.
+By combining Bayesian optimization with high-resolution three-dimensional simulations, the researchers identified the best conditions for maximizing the cut-off energy of accelerated electrons. They examined both self-guided lasers in uniform plasma and guided lasers in preformed plasma channels. Their results show that with just 10 millijoules of laser energy, self-guided setups produced electron beams with cut-off energies of around 70 mega-electronvolts. When plasma channels were used, the energy increased to more than 90 mega-electronvolts. Importantly, analytical models derived in the study confirmed the simulation outcomes and provided scaling laws that can be used to predict performance at higher laser energies. These findings suggest that carefully tuned plasma channels can significantly enhance the acceleration process while maintaining compact system sizes.
 
 <figure id="figure_1" style="max-width: 500px" class="align-center">
   <a href="/assets/images/2025-09-12/img_01.jpg" class="image-popup">
@@ -43,7 +43,7 @@ By combining Bayesian optimization with high-resolution three-dimensional simula
 
 This research demonstrates not only a practical way to optimize compact accelerators, but also provides scaling laws that can be applied to future high-energy laser systems. The results show that laser wakefield accelerators could eventually deliver hundreds of giga-electronvolts of electron energy when powered by large-scale lasers, potentially rivaling [traditional particle accelerators](https://en.wikipedia.org/wiki/Particle_accelerator). Such compact, high-energy accelerators could have transformative applications — from generating [muons](https://en.wikipedia.org/wiki/Muon) for [radiography](https://en.wikipedia.org/wiki/Radiography) and fundamental physics, to producing novel radiation sources for medicine and security screening, and even enabling new studies in [quantum electrodynamics](https://en.wikipedia.org/wiki/Quantum_electrodynamics). By bridging advanced machine learning with state-of-the-art plasma physics, the study takes a decisive step toward making efficient table-top electron accelerators a reality for both research and practical applications worldwide.
 
-**Tip:** Following the principles of reproducible science, the raw data used for our research has been uploaded to [Zenodo](https://doi.org/10.5281/zenodo.16941557) and the data analysis can be found on [GitHub](https://github.com/valenpe7/knh7-hbr3).
+**Tip:** Following the principles of reproducible science, the raw data used for this research are openly available on [Zenodo](https://doi.org/10.5281/zenodo.16941557) and the data analysis can be accessed on [GitHub](https://github.com/valenpe7/knh7-hbr3).
 {: .notice--success}
 
 ### How to cite 

@@ -14,7 +14,7 @@ tags:
 
 ---
 
-**Note:** This is a press-release of the paper [P. Valenta et al., Phys. Rev. E 109, 065204 (2024)](https://doi.org/10.1103/PhysRevE.109.065204) which I co-authored.
+**Note:** This is a press-release of the paper [P. Valenta et al., Phys. Rev. E 109, 065204 (2024)](https://doi.org/10.1103/PhysRevE.109.065204).
 {: .notice--info}
 
 **Tip:** You may find a pre-print of this paper on [arXiv](https://arxiv.org/abs/2402.14561).
@@ -45,7 +45,7 @@ Although DLA typically produces electron beams of lower energy and quality compa
 
 Beyond fundamental science, this research strengthens the case for DLA as a complementary mechanism to LWFA, particularly for applications that require high-charge beams. From producing powerful radiation sources to enabling future particle–antiparticle studies, DLA-based accelerators are positioned to drive innovation in physics, materials science, and nuclear research.
 
-**Tip:** Following the principles of reproducible science, the raw data used for our research has been uploaded to [Zenodo](https://doi.org/10.5281/zenodo.17132062) and the data analysis can be found on [GitHub](https://github.com/valenpe7/PhysRevE.109.065204).
+**Tip:** Following the principles of reproducible science, the raw data used for this research are openly available on [Zenodo](https://doi.org/10.5281/zenodo.17132062) and the data analysis can be accessed on [GitHub](https://github.com/valenpe7/PhysRevE.109.065204).
 {: .notice--success}
 
 ### How to cite 
