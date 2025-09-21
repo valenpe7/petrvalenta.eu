@@ -24,7 +24,7 @@ In a new study published in [Physical Review E](https://doi.org/10.1103/PhysRevE
 
 ### What the work is about
 
-Laser-driven plasma-based electron accelerators are emerging as a revolutionary technology, promising to deliver powerful particle beams at a fraction of the size and cost of traditional [radio-frequency machines](https://en.wikipedia.org/wiki/Particle_accelerator). While laser-wakefield acceleration (LWFA) has already been widely explored, another mechanism — known as direct laser acceleration (DLA) — offers unique advantages, particularly in generating high-charge electron beams.
+Laser-driven plasma-based electron accelerators are emerging as a revolutionary technology, promising to deliver powerful particle beams at a fraction of the size and cost of traditional [radio-frequency machines](https://en.wikipedia.org/wiki/Particle_accelerator). While laser wakefield acceleration (LWFA) has already been widely explored, another mechanism — known as direct laser acceleration (DLA) — offers unique advantages, particularly in generating high-charge electron beams.
 
 ### What the central findings are
 
