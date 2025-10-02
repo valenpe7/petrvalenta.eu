@@ -45,6 +45,11 @@ Although DLA typically produces electron beams of lower energy and quality compa
 
 Beyond fundamental science, this research strengthens the case for DLA as a complementary mechanism to LWFA, particularly for applications that require high-charge beams. From producing powerful radiation sources to enabling future particle–antiparticle studies, DLA-based accelerators are positioned to drive innovation in physics, [materials science](https://en.wikipedia.org/wiki/Materials_science), and [nuclear physics](https://en.wikipedia.org/wiki/Nuclear_physics) research.
 
+**Tip:** The simulation data is visualized using the ELI [Virtual Beamline](https://www.eli-beams.eu/facility/computing-simulations/virtual-beamline/) – a complex, interactive 3D web application that allows users to explore the data with a virtual reality headset. The application can be accessed [here](https://valenpe7.github.io/PhysRevE.109.065204/). Note that the size of the dataset used for visualization is approximately 4.5 GB, so it may take some time to load and also requires a corresponding amount of free RAM on your machine. If you are unable to meet these requirements, you can still view the visualization in the video below.
+{: .notice--success}
+
+{% include video id="1121967943" provider="vimeo" %}
+
 **Tip:** Following the principles of reproducible science, the raw data used for this research are openly available on [Zenodo](https://doi.org/10.5281/zenodo.17132062) and the data analysis can be accessed on [GitHub](https://github.com/valenpe7/PhysRevE.109.065204).
 {: .notice--success}
 
